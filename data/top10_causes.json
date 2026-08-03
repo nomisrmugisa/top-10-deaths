@@ -2,11 +2,11 @@
   "chapter_drilldowns": [
     {
       "chapter": "Unknown / missing ICD code",
-      "records_considered": 7946,
+      "records_considered": 7953,
       "top_families": [
         {
           "chapter": "Unknown / missing ICD code",
-          "count": 7946,
+          "count": 7953,
           "family_code": "UNKNOWN",
           "rank": 1,
           "sample_codes": [],
@@ -150,11 +150,11 @@
     },
     {
       "chapter": "19. Certain conditions originating in the perinatal period",
-      "records_considered": 2187,
+      "records_considered": 2189,
       "top_families": [
         {
           "chapter": "19. Certain conditions originating in the perinatal period",
-          "count": 613,
+          "count": 614,
           "family_code": "KB21",
           "rank": 1,
           "sample_codes": [
@@ -171,7 +171,7 @@
         },
         {
           "chapter": "19. Certain conditions originating in the perinatal period",
-          "count": 548,
+          "count": 549,
           "family_code": "KB20",
           "rank": 2,
           "sample_codes": [
@@ -1554,7 +1554,7 @@
     },
     {
       "chapter": "18. Pregnancy, childbirth or the puerperium",
-      "records_considered": 630,
+      "records_considered": 632,
       "top_families": [
         {
           "chapter": "18. Pregnancy, childbirth or the puerperium",
@@ -1622,7 +1622,7 @@
         },
         {
           "chapter": "18. Pregnancy, childbirth or the puerperium",
-          "count": 34,
+          "count": 35,
           "family_code": "JB63",
           "rank": 5,
           "sample_codes": [
@@ -1630,8 +1630,8 @@
             "JB63.7"
           ],
           "sample_texts": [
-            "MALARIA IN PREG",
             "MALARIA IN PRE",
+            "MALARIA IN PREG",
             "MALARIA IN PREGN"
           ]
         },
@@ -3247,14 +3247,14 @@
     }
   ],
   "event_year": 2026,
-  "generated_at": "2026-08-02T05:14:25Z",
-  "records_considered": 15734,
+  "generated_at": "2026-08-03T03:53:08Z",
+  "records_considered": 15745,
   "source": "logs.db (event year 2026)",
   "status_filter": "all",
   "top_chapters": [
     {
       "chapter": "Unknown / missing ICD code",
-      "count": 7946,
+      "count": 7953,
       "rank": 1,
       "sample_codes": [],
       "sample_texts": [
@@ -3265,7 +3265,7 @@
     },
     {
       "chapter": "19. Certain conditions originating in the perinatal period",
-      "count": 2187,
+      "count": 2189,
       "rank": 2,
       "sample_codes": [
         "KB20.Z",
@@ -3333,7 +3333,7 @@
     },
     {
       "chapter": "18. Pregnancy, childbirth or the puerperium",
-      "count": 630,
+      "count": 632,
       "rank": 6,
       "sample_codes": [
         "JA86.2",
@@ -3420,7 +3420,7 @@
   "top_families": [
     {
       "chapter": "Unknown / missing ICD code",
-      "count": 7946,
+      "count": 7953,
       "family_code": "UNKNOWN",
       "rank": 1,
       "sample_codes": [],
@@ -3432,7 +3432,7 @@
     },
     {
       "chapter": "19. Certain conditions originating in the perinatal period",
-      "count": 613,
+      "count": 614,
       "family_code": "KB21",
       "rank": 2,
       "sample_codes": [
@@ -3449,7 +3449,7 @@
     },
     {
       "chapter": "19. Certain conditions originating in the perinatal period",
-      "count": 548,
+      "count": 549,
       "family_code": "KB20",
       "rank": 3,
       "sample_codes": [
