@@ -2,11 +2,11 @@
   "chapter_drilldowns": [
     {
       "chapter": "Unknown / missing ICD code",
-      "records_considered": 9001,
+      "records_considered": 9021,
       "top_families": [
         {
           "chapter": "Unknown / missing ICD code",
-          "count": 9001,
+          "count": 9021,
           "family_code": "UNKNOWN",
           "rank": 1,
           "sample_codes": [],
@@ -19,7 +19,7 @@
       ],
       "top_org_units": [
         {
-          "count": 758,
+          "count": 769,
           "org_unit_code": null,
           "org_unit_id": "HpJYuf9iyz2",
           "org_unit_name": "Unknown facility/OU",
@@ -32,7 +32,7 @@
           ]
         },
         {
-          "count": 472,
+          "count": 473,
           "org_unit_code": null,
           "org_unit_id": "ZpJgSAyZtkl",
           "org_unit_name": "Unknown facility/OU",
@@ -150,11 +150,11 @@
     },
     {
       "chapter": "19. Certain conditions originating in the perinatal period",
-      "records_considered": 2506,
+      "records_considered": 2509,
       "top_families": [
         {
           "chapter": "19. Certain conditions originating in the perinatal period",
-          "count": 720,
+          "count": 722,
           "family_code": "KB21",
           "rank": 1,
           "sample_codes": [
@@ -171,7 +171,7 @@
         },
         {
           "chapter": "19. Certain conditions originating in the perinatal period",
-          "count": 635,
+          "count": 636,
           "family_code": "KB20",
           "rank": 2,
           "sample_codes": [
@@ -510,11 +510,11 @@
     },
     {
       "chapter": "21. Symptoms, signs or clinical findings, not elsewhere classified",
-      "records_considered": 1731,
+      "records_considered": 1738,
       "top_families": [
         {
           "chapter": "21. Symptoms, signs or clinical findings, not elsewhere classified",
-          "count": 365,
+          "count": 370,
           "family_code": "MD11",
           "rank": 1,
           "sample_codes": [
@@ -565,7 +565,7 @@
         },
         {
           "chapter": "21. Symptoms, signs or clinical findings, not elsewhere classified",
-          "count": 269,
+          "count": 271,
           "family_code": "MG48",
           "rank": 4,
           "sample_codes": [
@@ -1203,7 +1203,7 @@
     },
     {
       "chapter": "1. Certain infectious or parasitic diseases",
-      "records_considered": 831,
+      "records_considered": 832,
       "top_families": [
         {
           "chapter": "1. Certain infectious or parasitic diseases",
@@ -1308,7 +1308,7 @@
         },
         {
           "chapter": "1. Certain infectious or parasitic diseases",
-          "count": 22,
+          "count": 23,
           "family_code": "1H0",
           "rank": 7,
           "sample_codes": [
@@ -1316,8 +1316,8 @@
           ],
           "sample_texts": [
             "UNKN",
-            "UNKNOWN",
-            "UNK"
+            "UNK",
+            "UNKNOWN"
           ]
         },
         {
@@ -2940,7 +2940,7 @@
     },
     {
       "chapter": "22. Injury, poisoning or certain other consequences of external causes",
-      "records_considered": 220,
+      "records_considered": 221,
       "top_families": [
         {
           "chapter": "22. Injury, poisoning or certain other consequences of external causes",
@@ -3276,14 +3276,14 @@
     }
   ],
   "event_year": 2026,
-  "generated_at": "2026-09-05T05:11:41Z",
-  "records_considered": 18026,
+  "generated_at": "2026-09-06T04:25:24Z",
+  "records_considered": 18058,
   "source": "logs.db (event year 2026)",
   "status_filter": "all",
   "top_chapters": [
     {
       "chapter": "Unknown / missing ICD code",
-      "count": 9001,
+      "count": 9021,
       "rank": 1,
       "sample_codes": [],
       "sample_texts": [
@@ -3294,7 +3294,7 @@
     },
     {
       "chapter": "19. Certain conditions originating in the perinatal period",
-      "count": 2506,
+      "count": 2509,
       "rank": 2,
       "sample_codes": [
         "KB20.Z",
@@ -3311,7 +3311,7 @@
     },
     {
       "chapter": "21. Symptoms, signs or clinical findings, not elsewhere classified",
-      "count": 1731,
+      "count": 1738,
       "rank": 3,
       "sample_codes": [
         "MD11.1",
@@ -3345,7 +3345,7 @@
     },
     {
       "chapter": "1. Certain infectious or parasitic diseases",
-      "count": 831,
+      "count": 832,
       "rank": 5,
       "sample_codes": [
         "1G41",
@@ -3430,7 +3430,7 @@
     },
     {
       "chapter": "22. Injury, poisoning or certain other consequences of external causes",
-      "count": 220,
+      "count": 221,
       "rank": 10,
       "sample_codes": [
         "NA07.Z",
@@ -3449,7 +3449,7 @@
   "top_families": [
     {
       "chapter": "Unknown / missing ICD code",
-      "count": 9001,
+      "count": 9021,
       "family_code": "UNKNOWN",
       "rank": 1,
       "sample_codes": [],
@@ -3461,7 +3461,7 @@
     },
     {
       "chapter": "19. Certain conditions originating in the perinatal period",
-      "count": 720,
+      "count": 722,
       "family_code": "KB21",
       "rank": 2,
       "sample_codes": [
@@ -3478,7 +3478,7 @@
     },
     {
       "chapter": "19. Certain conditions originating in the perinatal period",
-      "count": 635,
+      "count": 636,
       "family_code": "KB20",
       "rank": 3,
       "sample_codes": [
@@ -3527,7 +3527,7 @@
     },
     {
       "chapter": "21. Symptoms, signs or clinical findings, not elsewhere classified",
-      "count": 365,
+      "count": 370,
       "family_code": "MD11",
       "rank": 6,
       "sample_codes": [
@@ -3613,7 +3613,7 @@
   ],
   "top_org_units": [
     {
-      "count": 1346,
+      "count": 1357,
       "org_unit_code": null,
       "org_unit_id": "HpJYuf9iyz2",
       "org_unit_name": "Unknown facility/OU",
@@ -3632,7 +3632,7 @@
       ]
     },
     {
-      "count": 1232,
+      "count": 1233,
       "org_unit_code": null,
       "org_unit_id": "ZpJgSAyZtkl",
       "org_unit_name": "Unknown facility/OU",
