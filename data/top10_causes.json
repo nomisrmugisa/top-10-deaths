@@ -2,11 +2,11 @@
   "chapter_drilldowns": [
     {
       "chapter": "Unknown / missing ICD code",
-      "records_considered": 9178,
+      "records_considered": 9214,
       "top_families": [
         {
           "chapter": "Unknown / missing ICD code",
-          "count": 9178,
+          "count": 9214,
           "family_code": "UNKNOWN",
           "rank": 1,
           "sample_codes": [],
@@ -19,7 +19,7 @@
       ],
       "top_org_units": [
         {
-          "count": 769,
+          "count": 772,
           "org_unit_code": null,
           "org_unit_id": "HpJYuf9iyz2",
           "org_unit_name": "Unknown facility/OU",
@@ -84,7 +84,7 @@
           ]
         },
         {
-          "count": 241,
+          "count": 242,
           "org_unit_code": null,
           "org_unit_id": "xuCJ8NBomxP",
           "org_unit_name": "Unknown facility/OU",
@@ -97,7 +97,7 @@
           ]
         },
         {
-          "count": 231,
+          "count": 234,
           "org_unit_code": null,
           "org_unit_id": "RPJpuHyPqWP",
           "org_unit_name": "Unknown facility/OU",
@@ -150,11 +150,11 @@
     },
     {
       "chapter": "19. Certain conditions originating in the perinatal period",
-      "records_considered": 2518,
+      "records_considered": 2532,
       "top_families": [
         {
           "chapter": "19. Certain conditions originating in the perinatal period",
-          "count": 725,
+          "count": 732,
           "family_code": "KB21",
           "rank": 1,
           "sample_codes": [
@@ -171,7 +171,7 @@
         },
         {
           "chapter": "19. Certain conditions originating in the perinatal period",
-          "count": 642,
+          "count": 643,
           "family_code": "KB20",
           "rank": 2,
           "sample_codes": [
@@ -187,7 +187,7 @@
         },
         {
           "chapter": "19. Certain conditions originating in the perinatal period",
-          "count": 287,
+          "count": 289,
           "family_code": "KB23",
           "rank": 3,
           "sample_codes": [
@@ -223,7 +223,7 @@
         },
         {
           "chapter": "19. Certain conditions originating in the perinatal period",
-          "count": 119,
+          "count": 121,
           "family_code": "KD3B",
           "rank": 5,
           "sample_codes": [
@@ -253,7 +253,7 @@
         },
         {
           "chapter": "19. Certain conditions originating in the perinatal period",
-          "count": 87,
+          "count": 88,
           "family_code": "KB04",
           "rank": 7,
           "sample_codes": [
@@ -317,30 +317,11 @@
       ],
       "top_org_units": [
         {
-          "count": 136,
-          "org_unit_code": null,
-          "org_unit_id": "BrtC10sqp45",
-          "org_unit_name": "Unknown facility/OU",
-          "rank": 1,
-          "sample_codes": [
-            "KA60",
-            "KB21.0",
-            "KB20.Z",
-            "KA02.Y",
-            "KB21.Z"
-          ],
-          "sample_texts": [
-            "PREMATURITY",
-            "NEONATAL SE",
-            "ASPHYXIA"
-          ]
-        },
-        {
-          "count": 133,
+          "count": 137,
           "org_unit_code": null,
           "org_unit_id": "h40pKp93Mtc",
           "org_unit_name": "Unknown facility/OU",
-          "rank": 2,
+          "rank": 1,
           "sample_codes": [
             "KB23.0Z",
             "KB21.Z",
@@ -352,6 +333,25 @@
             "RDS",
             "NEONATAL SEPSIS",
             "BIRTH ASPHYXIA"
+          ]
+        },
+        {
+          "count": 136,
+          "org_unit_code": null,
+          "org_unit_id": "BrtC10sqp45",
+          "org_unit_name": "Unknown facility/OU",
+          "rank": 2,
+          "sample_codes": [
+            "KA60",
+            "KB21.0",
+            "KB20.Z",
+            "KA02.Y",
+            "KB21.Z"
+          ],
+          "sample_texts": [
+            "PREMATURITY",
+            "NEONATAL SE",
+            "ASPHYXIA"
           ]
         },
         {
@@ -469,7 +469,7 @@
           ]
         },
         {
-          "count": 60,
+          "count": 65,
           "org_unit_code": null,
           "org_unit_id": "V2ylFCAVj0U",
           "org_unit_name": "Unknown facility/OU",
@@ -510,11 +510,11 @@
     },
     {
       "chapter": "21. Symptoms, signs or clinical findings, not elsewhere classified",
-      "records_considered": 1712,
+      "records_considered": 1719,
       "top_families": [
         {
           "chapter": "21. Symptoms, signs or clinical findings, not elsewhere classified",
-          "count": 370,
+          "count": 374,
           "family_code": "MD11",
           "rank": 1,
           "sample_codes": [
@@ -548,7 +548,7 @@
         },
         {
           "chapter": "21. Symptoms, signs or clinical findings, not elsewhere classified",
-          "count": 313,
+          "count": 314,
           "family_code": "MG40",
           "rank": 3,
           "sample_codes": [
@@ -565,7 +565,7 @@
         },
         {
           "chapter": "21. Symptoms, signs or clinical findings, not elsewhere classified",
-          "count": 273,
+          "count": 275,
           "family_code": "MG48",
           "rank": 4,
           "sample_codes": [
@@ -723,7 +723,7 @@
           ]
         },
         {
-          "count": 71,
+          "count": 72,
           "org_unit_code": null,
           "org_unit_id": "h40pKp93Mtc",
           "org_unit_name": "China Uganda Friendship (Naguru) Regional Referral Hospital",
@@ -859,7 +859,7 @@
     },
     {
       "chapter": "12. Diseases of the respiratory system",
-      "records_considered": 1064,
+      "records_considered": 1069,
       "top_families": [
         {
           "chapter": "12. Diseases of the respiratory system",
@@ -881,7 +881,7 @@
         },
         {
           "chapter": "12. Diseases of the respiratory system",
-          "count": 187,
+          "count": 190,
           "family_code": "CA71",
           "rank": 2,
           "sample_codes": [
@@ -911,7 +911,7 @@
         },
         {
           "chapter": "12. Diseases of the respiratory system",
-          "count": 162,
+          "count": 163,
           "family_code": "CA40",
           "rank": 4,
           "sample_codes": [
@@ -929,7 +929,7 @@
         },
         {
           "chapter": "12. Diseases of the respiratory system",
-          "count": 19,
+          "count": 20,
           "family_code": "CB7",
           "rank": 5,
           "sample_codes": [
@@ -938,7 +938,7 @@
           "sample_texts": [
             "RESPIRATORY",
             "RESPIRA",
-            "RES"
+            "RESPIRATORY DIS"
           ]
         },
         {
@@ -1203,11 +1203,11 @@
     },
     {
       "chapter": "1. Certain infectious or parasitic diseases",
-      "records_considered": 817,
+      "records_considered": 826,
       "top_families": [
         {
           "chapter": "1. Certain infectious or parasitic diseases",
-          "count": 442,
+          "count": 447,
           "family_code": "1G4",
           "rank": 1,
           "sample_codes": [
@@ -1222,7 +1222,7 @@
         },
         {
           "chapter": "1. Certain infectious or parasitic diseases",
-          "count": 97,
+          "count": 98,
           "family_code": "1F4",
           "rank": 2,
           "sample_codes": [
@@ -1254,7 +1254,7 @@
         },
         {
           "chapter": "1. Certain infectious or parasitic diseases",
-          "count": 41,
+          "count": 42,
           "family_code": "1D0",
           "rank": 4,
           "sample_codes": [
@@ -1272,7 +1272,7 @@
         },
         {
           "chapter": "1. Certain infectious or parasitic diseases",
-          "count": 40,
+          "count": 41,
           "family_code": "1B1",
           "rank": 5,
           "sample_codes": [
@@ -1308,7 +1308,7 @@
         },
         {
           "chapter": "1. Certain infectious or parasitic diseases",
-          "count": 23,
+          "count": 24,
           "family_code": "1H0",
           "rank": 7,
           "sample_codes": [
@@ -1543,27 +1543,29 @@
           ]
         },
         {
-          "count": 20,
+          "count": 22,
           "org_unit_code": null,
-          "org_unit_id": "KhvLQSeeHZM",
+          "org_unit_id": "THGKB3lHEUx",
           "org_unit_name": "Unknown facility/OU",
           "rank": 10,
           "sample_codes": [
             "1G41",
             "1G40",
-            "1D65"
+            "1D65",
+            "1F40.Z",
+            "1B1Z"
           ],
           "sample_texts": [
-            "septic shock",
-            "SEPTIC SHOCK",
-            "SEP"
+            "ACUTE RESP",
+            "SEVERE RES",
+            "SEVERE RESPIRATORY"
           ]
         }
       ]
     },
     {
       "chapter": "18. Pregnancy, childbirth or the puerperium",
-      "records_considered": 776,
+      "records_considered": 785,
       "top_families": [
         {
           "chapter": "18. Pregnancy, childbirth or the puerperium",
@@ -1584,7 +1586,7 @@
         },
         {
           "chapter": "18. Pregnancy, childbirth or the puerperium",
-          "count": 64,
+          "count": 65,
           "family_code": "JA24",
           "rank": 2,
           "sample_codes": [
@@ -1615,9 +1617,26 @@
         },
         {
           "chapter": "18. Pregnancy, childbirth or the puerperium",
-          "count": 42,
-          "family_code": "JB63",
+          "count": 43,
+          "family_code": "JB08",
           "rank": 4,
+          "sample_codes": [
+            "JB08.0",
+            "JB08.1",
+            "JB08.5",
+            "JB08.Y"
+          ],
+          "sample_texts": [
+            "CORD PROLAPSE",
+            "CORD PRO",
+            "Tight cord"
+          ]
+        },
+        {
+          "chapter": "18. Pregnancy, childbirth or the puerperium",
+          "count": 43,
+          "family_code": "JB63",
+          "rank": 5,
           "sample_codes": [
             "JB63.60"
           ],
@@ -1625,23 +1644,6 @@
             "MALARIA IN PREG",
             "MALARIA IN PRE",
             "MALARIA IN PREGNANCY"
-          ]
-        },
-        {
-          "chapter": "18. Pregnancy, childbirth or the puerperium",
-          "count": 40,
-          "family_code": "JB08",
-          "rank": 5,
-          "sample_codes": [
-            "JB08.0",
-            "JB08.1",
-            "JB08.Y",
-            "JB08.5"
-          ],
-          "sample_texts": [
-            "CORD PROLAPSE",
-            "CORD PRO",
-            "Tight cord"
           ]
         },
         {
@@ -1679,7 +1681,7 @@
         },
         {
           "chapter": "18. Pregnancy, childbirth or the puerperium",
-          "count": 22,
+          "count": 25,
           "family_code": "JA88",
           "rank": 8,
           "sample_codes": [
@@ -1761,7 +1763,7 @@
           ]
         },
         {
-          "count": 36,
+          "count": 38,
           "org_unit_code": null,
           "org_unit_id": "sFIS2oxchec",
           "org_unit_name": "Unknown facility/OU",
@@ -1780,17 +1782,17 @@
           ]
         },
         {
-          "count": 33,
+          "count": 37,
           "org_unit_code": null,
           "org_unit_id": "BrtC10sqp45",
           "org_unit_name": "Unknown facility/OU",
           "rank": 4,
           "sample_codes": [
+            "JA88.0",
             "JA41.Z",
             "JA24.1",
             "JA24.Z",
-            "JA8C.Z",
-            "JA88.0"
+            "JA8C.Z"
           ],
           "sample_texts": [
             "PRE-EC",
@@ -2267,11 +2269,11 @@
     },
     {
       "chapter": "11. Diseases of the circulatory system",
-      "records_considered": 305,
+      "records_considered": 310,
       "top_families": [
         {
           "chapter": "11. Diseases of the circulatory system",
-          "count": 86,
+          "count": 88,
           "family_code": "BD1",
           "rank": 1,
           "sample_codes": [
@@ -2316,7 +2318,7 @@
         },
         {
           "chapter": "11. Diseases of the circulatory system",
-          "count": 27,
+          "count": 28,
           "family_code": "BA00",
           "rank": 4,
           "sample_codes": [
@@ -2592,11 +2594,11 @@
     },
     {
       "chapter": "5. Endocrine, nutritional or metabolic diseases",
-      "records_considered": 266,
+      "records_considered": 267,
       "top_families": [
         {
           "chapter": "5. Endocrine, nutritional or metabolic diseases",
-          "count": 112,
+          "count": 113,
           "family_code": "5C7",
           "rank": 1,
           "sample_codes": [
@@ -3274,14 +3276,14 @@
     }
   ],
   "event_year": 2026,
-  "generated_at": "2026-09-07T04:54:07Z",
-  "records_considered": 18151,
+  "generated_at": "2026-09-08T05:03:58Z",
+  "records_considered": 18245,
   "source": "logs.db (event year 2026)",
   "status_filter": "all",
   "top_chapters": [
     {
       "chapter": "Unknown / missing ICD code",
-      "count": 9178,
+      "count": 9214,
       "rank": 1,
       "sample_codes": [],
       "sample_texts": [
@@ -3292,7 +3294,7 @@
     },
     {
       "chapter": "19. Certain conditions originating in the perinatal period",
-      "count": 2518,
+      "count": 2532,
       "rank": 2,
       "sample_codes": [
         "KB20.Z",
@@ -3309,7 +3311,7 @@
     },
     {
       "chapter": "21. Symptoms, signs or clinical findings, not elsewhere classified",
-      "count": 1712,
+      "count": 1719,
       "rank": 3,
       "sample_codes": [
         "MD11.1",
@@ -3326,7 +3328,7 @@
     },
     {
       "chapter": "12. Diseases of the respiratory system",
-      "count": 1064,
+      "count": 1069,
       "rank": 4,
       "sample_codes": [
         "CB41",
@@ -3343,14 +3345,14 @@
     },
     {
       "chapter": "1. Certain infectious or parasitic diseases",
-      "count": 817,
+      "count": 826,
       "rank": 5,
       "sample_codes": [
         "1G41",
         "1G40",
         "1D65",
         "1F4Z",
-        "1F40.Z"
+        "1H0Z"
       ],
       "sample_texts": [
         "SEPSIS",
@@ -3360,7 +3362,7 @@
     },
     {
       "chapter": "18. Pregnancy, childbirth or the puerperium",
-      "count": 776,
+      "count": 785,
       "rank": 6,
       "sample_codes": [
         "JA86.2",
@@ -3394,7 +3396,7 @@
     },
     {
       "chapter": "11. Diseases of the circulatory system",
-      "count": 305,
+      "count": 310,
       "rank": 8,
       "sample_codes": [
         "BD1Z",
@@ -3411,7 +3413,7 @@
     },
     {
       "chapter": "5. Endocrine, nutritional or metabolic diseases",
-      "count": 266,
+      "count": 267,
       "rank": 9,
       "sample_codes": [
         "5A41",
@@ -3447,7 +3449,7 @@
   "top_families": [
     {
       "chapter": "Unknown / missing ICD code",
-      "count": 9178,
+      "count": 9214,
       "family_code": "UNKNOWN",
       "rank": 1,
       "sample_codes": [],
@@ -3459,7 +3461,7 @@
     },
     {
       "chapter": "19. Certain conditions originating in the perinatal period",
-      "count": 725,
+      "count": 732,
       "family_code": "KB21",
       "rank": 2,
       "sample_codes": [
@@ -3476,7 +3478,7 @@
     },
     {
       "chapter": "19. Certain conditions originating in the perinatal period",
-      "count": 642,
+      "count": 643,
       "family_code": "KB20",
       "rank": 3,
       "sample_codes": [
@@ -3492,7 +3494,7 @@
     },
     {
       "chapter": "1. Certain infectious or parasitic diseases",
-      "count": 442,
+      "count": 447,
       "family_code": "1G4",
       "rank": 4,
       "sample_codes": [
@@ -3525,7 +3527,7 @@
     },
     {
       "chapter": "21. Symptoms, signs or clinical findings, not elsewhere classified",
-      "count": 370,
+      "count": 374,
       "family_code": "MD11",
       "rank": 6,
       "sample_codes": [
@@ -3559,7 +3561,7 @@
     },
     {
       "chapter": "21. Symptoms, signs or clinical findings, not elsewhere classified",
-      "count": 313,
+      "count": 314,
       "family_code": "MG40",
       "rank": 8,
       "sample_codes": [
@@ -3593,7 +3595,7 @@
     },
     {
       "chapter": "19. Certain conditions originating in the perinatal period",
-      "count": 287,
+      "count": 289,
       "family_code": "KB23",
       "rank": 10,
       "sample_codes": [
@@ -3612,7 +3614,7 @@
   ],
   "top_org_units": [
     {
-      "count": 1357,
+      "count": 1360,
       "org_unit_code": null,
       "org_unit_id": "HpJYuf9iyz2",
       "org_unit_name": "Unknown facility/OU",
@@ -3669,7 +3671,7 @@
       ]
     },
     {
-      "count": 564,
+      "count": 569,
       "org_unit_code": null,
       "org_unit_id": "sFIS2oxchec",
       "org_unit_name": "Unknown facility/OU",
@@ -3688,7 +3690,7 @@
       ]
     },
     {
-      "count": 526,
+      "count": 530,
       "org_unit_code": null,
       "org_unit_id": "BrtC10sqp45",
       "org_unit_name": "Unknown facility/OU",
@@ -3726,7 +3728,7 @@
       ]
     },
     {
-      "count": 428,
+      "count": 446,
       "org_unit_code": null,
       "org_unit_id": "h40pKp93Mtc",
       "org_unit_name": "China Uganda Friendship (Naguru) Regional Referral Hospital",
@@ -3735,8 +3737,8 @@
         "KB23.0Z",
         "MG48",
         "KB21.Z",
-        "KA60",
-        "CA71.0"
+        "CA71.0",
+        "KA60"
       ],
       "sample_texts": [
         "UNKNOWN",
