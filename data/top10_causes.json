@@ -2,11 +2,11 @@
   "chapter_drilldowns": [
     {
       "chapter": "Unknown / missing ICD code",
-      "records_considered": 10061,
+      "records_considered": 9923,
       "top_families": [
         {
           "chapter": "Unknown / missing ICD code",
-          "count": 10061,
+          "count": 9923,
           "family_code": "UNKNOWN",
           "rank": 1,
           "sample_codes": [],
@@ -32,10 +32,10 @@
           ]
         },
         {
-          "count": 495,
+          "count": 481,
           "org_unit_code": null,
           "org_unit_id": "ZpJgSAyZtkl",
-          "org_unit_name": "Mbarara Regional Referral Hospital",
+          "org_unit_name": "Unknown facility/OU",
           "rank": 2,
           "sample_codes": [],
           "sample_texts": [
@@ -67,33 +67,20 @@
           "sample_texts": [
             "RESPIRATORY FAILURE",
             "CARDIORESPIRATORY FAILURE",
-            "CARDIO RESPIRATORY FAILURE"
+            "CIRCULATORY FAILURE"
           ]
         },
         {
-          "count": 267,
+          "count": 257,
           "org_unit_code": null,
-          "org_unit_id": "xuCJ8NBomxP",
+          "org_unit_id": "BrtC10sqp45",
           "org_unit_name": "Unknown facility/OU",
           "rank": 5,
           "sample_codes": [],
           "sample_texts": [
-            "Unknown",
-            "Severe birth asphyxia",
-            "Malaria in pregnancy"
-          ]
-        },
-        {
-          "count": 255,
-          "org_unit_code": null,
-          "org_unit_id": "BrtC10sqp45",
-          "org_unit_name": "Unknown facility/OU",
-          "rank": 6,
-          "sample_codes": [],
-          "sample_texts": [
             "NEONATAL SEPSIS",
             "UNKNOWN",
-            "HIE"
+            "HIE III"
           ]
         },
         {
@@ -101,12 +88,25 @@
           "org_unit_code": null,
           "org_unit_id": "RPJpuHyPqWP",
           "org_unit_name": "Unknown facility/OU",
-          "rank": 7,
+          "rank": 6,
           "sample_codes": [],
           "sample_texts": [
             "HYPOXIA",
             "UNKNOWN",
             "INTRA-UTERINE"
+          ]
+        },
+        {
+          "count": 238,
+          "org_unit_code": null,
+          "org_unit_id": "xuCJ8NBomxP",
+          "org_unit_name": "Unknown facility/OU",
+          "rank": 7,
+          "sample_codes": [],
+          "sample_texts": [
+            "Unknown",
+            "Malaria in pregnancy",
+            "Congenital abnormalies"
           ]
         },
         {
@@ -130,7 +130,7 @@
           "sample_texts": [
             "INTRAUTERINE HYPOXIA",
             "INTRA-UTERINE FETAL HYPOXIA",
-            "INTRA UTERINE HYPOXIA"
+            "ARDS"
           ]
         },
         {
@@ -141,8 +141,8 @@
           "rank": 10,
           "sample_codes": [],
           "sample_texts": [
-            "septic shock",
-            "PREMATURITY",
+            "CARDIAC ARREST",
+            "SEPTIC SHOCK",
             "SEPTICAEMIA"
           ]
         }
@@ -150,7 +150,7 @@
     },
     {
       "chapter": "19. Certain conditions originating in the perinatal period",
-      "records_considered": 2771,
+      "records_considered": 2775,
       "top_families": [
         {
           "chapter": "19. Certain conditions originating in the perinatal period",
@@ -166,13 +166,13 @@
           ],
           "sample_texts": [
             "BIRTH ASP",
-            "BIRTH ASPHYXIA",
-            "BIRTH ASPH"
+            "BIRTH ASPH",
+            "BIRTH ASPHYXIA"
           ]
         },
         {
           "chapter": "19. Certain conditions originating in the perinatal period",
-          "count": 706,
+          "count": 710,
           "family_code": "KB20",
           "rank": 2,
           "sample_codes": [
@@ -188,7 +188,7 @@
         },
         {
           "chapter": "19. Certain conditions originating in the perinatal period",
-          "count": 316,
+          "count": 317,
           "family_code": "KB23",
           "rank": 3,
           "sample_codes": [
@@ -225,22 +225,8 @@
         {
           "chapter": "19. Certain conditions originating in the perinatal period",
           "count": 125,
-          "family_code": "KA60",
-          "rank": 5,
-          "sample_codes": [
-            "KA60"
-          ],
-          "sample_texts": [
-            "NEONATAL SEPSIS",
-            "NEONATAL SEP",
-            "NEONATAL SE"
-          ]
-        },
-        {
-          "chapter": "19. Certain conditions originating in the perinatal period",
-          "count": 125,
           "family_code": "KD3B",
-          "rank": 6,
+          "rank": 5,
           "sample_codes": [
             "KD3B.Z",
             "KD3B.0",
@@ -250,6 +236,20 @@
             "MACER",
             "MACERA",
             "FRESH"
+          ]
+        },
+        {
+          "chapter": "19. Certain conditions originating in the perinatal period",
+          "count": 124,
+          "family_code": "KA60",
+          "rank": 6,
+          "sample_codes": [
+            "KA60"
+          ],
+          "sample_texts": [
+            "NEONATAL SEPSIS",
+            "NEONATAL SEP",
+            "NEONATAL SE"
           ]
         },
         {
@@ -310,8 +310,8 @@
           ],
           "sample_texts": [
             "RESPIRATORY FAILURE",
-            "neonatal",
-            "NEONA"
+            "RESPI",
+            "RESPIRATORY FAILURE OF"
           ]
         }
       ],
@@ -344,13 +344,13 @@
           "sample_codes": [
             "KA60",
             "KB21.0",
-            "KB20.Z",
             "KA02.Y",
-            "KB21.Z"
+            "KB20.Z",
+            "KB23.0Z"
           ],
           "sample_texts": [
             "PREMATURITY",
-            "NEONATAL SE",
+            "RESPIRATORY DISTRESS",
             "ASPHYXIA"
           ]
         },
@@ -401,14 +401,14 @@
           "sample_codes": [
             "KB23.0Z",
             "KB21.Z",
-            "KB21.0",
             "KA21.4Z",
+            "KB21.0",
             "KA8D"
           ],
           "sample_texts": [
             "RDS",
-            "birth asph",
-            "RESPIRATORY DISTRESS"
+            "RESPIRATORY DISTRESS",
+            "birth asph"
           ]
         },
         {
@@ -421,8 +421,8 @@
             "KB20.Z",
             "KB23.0Z",
             "KB21.0",
-            "KB21.Z",
-            "KA03.0"
+            "KA03.0",
+            "KB21.Z"
           ],
           "sample_texts": [
             "BIRTH ASPH",
@@ -441,12 +441,12 @@
             "KB20.Z",
             "KB23.0Z",
             "KA21.4Z",
-            "KB21.0"
+            "KD3B.1"
           ],
           "sample_texts": [
             "BIRTH ASPHYXIA",
             "INTRAUTERINE",
-            "BIRTH ASPH"
+            "FRESH STILL BIRTH"
           ]
         },
         {
@@ -465,11 +465,11 @@
           "sample_texts": [
             "HYPOXIA",
             "ASPHYXIA",
-            "INTRAUTERINE FETAL"
+            "INTRAUTERINE"
           ]
         },
         {
-          "count": 70,
+          "count": 66,
           "org_unit_code": null,
           "org_unit_id": "V2ylFCAVj0U",
           "org_unit_name": "Unknown facility/OU",
@@ -479,42 +479,42 @@
             "KB21.0",
             "KB20.Z",
             "KB04",
-            "KB23.0Z"
+            "KA86"
           ],
           "sample_texts": [
             "BIRTH ASPHYXIA",
-            "BIRTH ASPHY",
-            "BIRTH ASPH"
+            "BIRTH ASPH",
+            "BIRTH ASPHY"
           ]
         },
         {
           "count": 65,
           "org_unit_code": null,
-          "org_unit_id": "K2BGHpaUluP",
+          "org_unit_id": "MUxAV5pwDbk",
           "org_unit_name": "Unknown facility/OU",
           "rank": 10,
           "sample_codes": [
             "KB20.Z",
-            "KB21.Z",
-            "KB21.0",
-            "KA60",
-            "KA21.4Z"
+            "KB23.0Z",
+            "KD3B.0",
+            "KD3B.1",
+            "KB21.0"
           ],
           "sample_texts": [
-            "BIRTH ASP",
+            "FRES",
             "INTRAUTERINE",
-            "INTRA UTERINE"
+            "MACERA"
           ]
         }
       ]
     },
     {
       "chapter": "21. Symptoms, signs or clinical findings, not elsewhere classified",
-      "records_considered": 1898,
+      "records_considered": 1942,
       "top_families": [
         {
           "chapter": "21. Symptoms, signs or clinical findings, not elsewhere classified",
-          "count": 404,
+          "count": 406,
           "family_code": "MD11",
           "rank": 1,
           "sample_codes": [
@@ -531,7 +531,7 @@
         },
         {
           "chapter": "21. Symptoms, signs or clinical findings, not elsewhere classified",
-          "count": 372,
+          "count": 385,
           "family_code": "MC82",
           "rank": 2,
           "sample_codes": [
@@ -543,12 +543,12 @@
           "sample_texts": [
             "CARDIAC ARREST",
             "CARDIAC ARR",
-            "cardiac arrest"
+            "CARDIAC ARRE"
           ]
         },
         {
           "chapter": "21. Symptoms, signs or clinical findings, not elsewhere classified",
-          "count": 345,
+          "count": 361,
           "family_code": "MG40",
           "rank": 3,
           "sample_codes": [
@@ -560,12 +560,12 @@
           "sample_texts": [
             "SHOCK",
             "HYPOVO",
-            "HAEMORRHAGIC SH"
+            "HYPOVOLAEMIC"
           ]
         },
         {
           "chapter": "21. Symptoms, signs or clinical findings, not elsewhere classified",
-          "count": 307,
+          "count": 308,
           "family_code": "MG48",
           "rank": 4,
           "sample_codes": [
@@ -579,7 +579,7 @@
         },
         {
           "chapter": "21. Symptoms, signs or clinical findings, not elsewhere classified",
-          "count": 159,
+          "count": 162,
           "family_code": "MD33",
           "rank": 5,
           "sample_codes": [
@@ -593,7 +593,7 @@
         },
         {
           "chapter": "21. Symptoms, signs or clinical findings, not elsewhere classified",
-          "count": 112,
+          "count": 116,
           "family_code": "MG4A",
           "rank": 6,
           "sample_codes": [
@@ -622,13 +622,13 @@
         },
         {
           "chapter": "21. Symptoms, signs or clinical findings, not elsewhere classified",
-          "count": 18,
+          "count": 23,
           "family_code": "MH12",
           "rank": 8,
           "sample_codes": [
             "MH12.0",
-            "MH12.Y",
-            "MH12"
+            "MH12",
+            "MH12.Y"
           ],
           "sample_texts": [
             "UN EXPLA"
@@ -643,8 +643,8 @@
             "MG27"
           ],
           "sample_texts": [
-            "bleeding",
             "HEMORR",
+            "bleeding",
             "hemorrha"
           ]
         },
@@ -659,22 +659,22 @@
             "ME24.A0"
           ],
           "sample_texts": [
-            "lower gast",
+            "GASTROINTESTINAL BLEEDING",
             "ACUTE GASTRO INTESTINA",
-            "GASTROINTESTINAL BLEEDING"
+            "lower gast"
           ]
         }
       ],
       "top_org_units": [
         {
-          "count": 351,
+          "count": 360,
           "org_unit_code": null,
           "org_unit_id": "ZpJgSAyZtkl",
           "org_unit_name": "Unknown facility/OU",
           "rank": 1,
           "sample_codes": [
-            "MD33",
             "MC82.Z",
+            "MD33",
             "MG48",
             "MG40.Z",
             "MC82.4"
@@ -701,7 +701,7 @@
           "sample_texts": [
             "HYPOXIA",
             "ASPHYXIA",
-            "UNKNOWN"
+            "SEPTIC"
           ]
         },
         {
@@ -719,15 +719,15 @@
           ],
           "sample_texts": [
             "HYPOXIA",
-            "bleeding",
-            "HYPOXI"
+            "HYPOXI",
+            "bleeding"
           ]
         },
         {
           "count": 75,
           "org_unit_code": null,
           "org_unit_id": "h40pKp93Mtc",
-          "org_unit_name": "China Uganda Friendship (Naguru) Regional Referral Hospital",
+          "org_unit_name": "Unknown facility/OU",
           "rank": 4,
           "sample_codes": [
             "MG48",
@@ -743,7 +743,7 @@
           ]
         },
         {
-          "count": 63,
+          "count": 72,
           "org_unit_code": null,
           "org_unit_id": "K2BGHpaUluP",
           "org_unit_name": "Unknown facility/OU",
@@ -752,13 +752,13 @@
             "MG40.Z",
             "MG40.0",
             "MD33",
-            "MD11.1",
-            "MC82.Z"
+            "MC82.Z",
+            "MD11.5"
           ],
           "sample_texts": [
-            "RESPIRATORY ARREST",
-            "CARDIOGENIC SHOCK",
-            "HYPOXIA"
+            "CARDIOGEN",
+            "Shock",
+            "Shock,"
           ]
         },
         {
@@ -769,15 +769,15 @@
           "rank": 6,
           "sample_codes": [
             "MC82.4",
-            "MG40.1",
             "MD11.5",
+            "MG40.1",
             "MC82.Z",
             "MG48"
           ],
           "sample_texts": [
             "UNK",
-            "UNKNOW",
-            "UNKOWN FATAL DISEASE"
+            "SEP",
+            "CARDIAC ARR"
           ]
         },
         {
@@ -791,12 +791,12 @@
             "MG40.1",
             "MG40.Z",
             "MG40.0",
-            "MD11.1"
+            "MC82.4"
           ],
           "sample_texts": [
             "SHOCK",
             "CARDIAC ARREST",
-            "CARDIAC ARR"
+            "HYPOVOLAEMIC"
           ]
         },
         {
@@ -810,7 +810,7 @@
             "MD11.5",
             "MG40.1",
             "MD11.1",
-            "MG40.0"
+            "MC82.4"
           ],
           "sample_texts": [
             "UNKNOWN",
@@ -825,20 +825,20 @@
           "org_unit_name": "Unknown facility/OU",
           "rank": 9,
           "sample_codes": [
-            "MD11.1",
             "MG48",
+            "MD11.1",
             "MG40.1",
             "MC82.Z",
-            "MC82.4"
+            "MG4A"
           ],
           "sample_texts": [
-            "HEMORRHAGIC SHOCK",
+            "septicaemia",
             "hypoxaemia",
             "HYPOXIA"
           ]
         },
         {
-          "count": 43,
+          "count": 44,
           "org_unit_code": null,
           "org_unit_id": "sFIS2oxchec",
           "org_unit_name": "Unknown facility/OU",
@@ -860,11 +860,11 @@
     },
     {
       "chapter": "12. Diseases of the respiratory system",
-      "records_considered": 1178,
+      "records_considered": 1202,
       "top_families": [
         {
           "chapter": "12. Diseases of the respiratory system",
-          "count": 465,
+          "count": 467,
           "family_code": "CB41",
           "rank": 1,
           "sample_codes": [
@@ -877,12 +877,12 @@
           "sample_texts": [
             "RESPIRATORY FAILURE",
             "RESPIRATORY",
-            "RESPIRAT"
+            "RESPIRA"
           ]
         },
         {
           "chapter": "12. Diseases of the respiratory system",
-          "count": 209,
+          "count": 215,
           "family_code": "CA71",
           "rank": 2,
           "sample_codes": [
@@ -898,7 +898,7 @@
         },
         {
           "chapter": "12. Diseases of the respiratory system",
-          "count": 203,
+          "count": 209,
           "family_code": "CB00",
           "rank": 3,
           "sample_codes": [
@@ -906,21 +906,21 @@
           ],
           "sample_texts": [
             "RESPIRATORY DISTRESS",
-            "respiratory distress syndrome",
-            "RESPIRATORY DISTRE"
+            "RESPIRATORY DISTRE",
+            "respiratory distress syndrome"
           ]
         },
         {
           "chapter": "12. Diseases of the respiratory system",
-          "count": 189,
+          "count": 198,
           "family_code": "CA40",
           "rank": 4,
           "sample_codes": [
             "CA40.Z",
             "CA40.Y",
             "CA40.0Z",
-            "CA40.0Y",
-            "CA40.20"
+            "CA40.07",
+            "CA40.0Y"
           ],
           "sample_texts": [
             "PNEUMONIA",
@@ -930,15 +930,15 @@
         },
         {
           "chapter": "12. Diseases of the respiratory system",
-          "count": 21,
+          "count": 19,
           "family_code": "CB7",
           "rank": 5,
           "sample_codes": [
             "CB7Z"
           ],
           "sample_texts": [
-            "RESPIRATORY",
             "RESPIRA",
+            "RESPIRATORY",
             "RESPIRATORY DIS"
           ]
         },
@@ -952,9 +952,9 @@
             "CA7Y"
           ],
           "sample_texts": [
-            "PNEUMONI",
-            "Pneumoni",
-            "PNE"
+            "PNEUMONITIS",
+            "Pneumon",
+            "PNEUMO"
           ]
         },
         {
@@ -991,13 +991,13 @@
           "rank": 9,
           "sample_codes": [
             "CB40.Y",
-            "CB40",
-            "CB40.2"
+            "CB40.2",
+            "CB40"
           ],
           "sample_texts": [
-            "RESPIRATORY DIS",
-            "PNEUMO",
-            "Resp"
+            "AIRWA",
+            "Resp",
+            "RESPIRATORY DIS"
           ]
         },
         {
@@ -1025,16 +1025,16 @@
             "CB41",
             "CB00",
             "CA40.Z",
-            "CB41.0Z"
+            "CA71.0"
           ],
           "sample_texts": [
             "RESPIRATORY FAIL",
             "RESPIRATORY FAILURE",
-            "RESPIRATORY"
+            "LIVER CIRR"
           ]
         },
         {
-          "count": 72,
+          "count": 73,
           "org_unit_code": null,
           "org_unit_id": "ZpJgSAyZtkl",
           "org_unit_name": "Unknown facility/OU",
@@ -1047,9 +1047,9 @@
             "CA40.0Z"
           ],
           "sample_texts": [
-            "Bacterial pne",
-            "PNEUMONITIS DUE TO FOOD AND V",
-            "bacterial pneu"
+            "Respiratory distress syndro",
+            "TENSION PNEUM",
+            "aspiration pne"
           ]
         },
         {
@@ -1061,8 +1061,8 @@
           "sample_codes": [
             "CA71.0",
             "CB41",
-            "CB00",
             "CA7Z",
+            "CB00",
             "CB41.2Z"
           ],
           "sample_texts": [
@@ -1085,8 +1085,8 @@
             "CA71.0"
           ],
           "sample_texts": [
-            "acute resp",
-            "acute respiratory distre"
+            "acute respiratory distre",
+            "acute resp"
           ]
         },
         {
@@ -1097,8 +1097,8 @@
           "rank": 5,
           "sample_codes": [
             "CA71.0",
-            "CB41",
             "CB41.2Z",
+            "CB41",
             "CA40.0Z",
             "CA7Z"
           ],
@@ -1109,7 +1109,7 @@
           ]
         },
         {
-          "count": 56,
+          "count": 57,
           "org_unit_code": null,
           "org_unit_id": "sFIS2oxchec",
           "org_unit_name": "Unknown facility/OU",
@@ -1122,8 +1122,8 @@
             "CB41.0Z"
           ],
           "sample_texts": [
-            "RESPIRATORY DISTRE",
             "RESPIRATORY DISTRESS",
+            "RESPIRATORY DISTRE",
             "RESPIRATORY DISTR"
           ]
         },
@@ -1137,7 +1137,7 @@
             "CB41.2Z",
             "CA40.Z",
             "CA40.0Z",
-            "CB41.0Z",
+            "CB00",
             "CA40.Y"
           ],
           "sample_texts": [
@@ -1147,30 +1147,11 @@
           ]
         },
         {
-          "count": 41,
-          "org_unit_code": null,
-          "org_unit_id": "cDGKAJzfkpf",
-          "org_unit_name": "Unknown facility/OU",
-          "rank": 8,
-          "sample_codes": [
-            "CB41",
-            "CA71.0",
-            "CB41.2Z",
-            "CB00",
-            "CA40.Z"
-          ],
-          "sample_texts": [
-            "aspiration pn",
-            "Pneumonia",
-            "respiratory distre"
-          ]
-        },
-        {
-          "count": 40,
+          "count": 43,
           "org_unit_code": null,
           "org_unit_id": "KhvLQSeeHZM",
           "org_unit_name": "Unknown facility/OU",
-          "rank": 9,
+          "rank": 8,
           "sample_codes": [
             "CA71.0",
             "CA22.Z",
@@ -1181,7 +1162,26 @@
           "sample_texts": [
             "pneumonia",
             "aspiration pneumonia",
-            "ASPIRATION PNEUMONIA"
+            "PNEUMONIA"
+          ]
+        },
+        {
+          "count": 41,
+          "org_unit_code": null,
+          "org_unit_id": "cDGKAJzfkpf",
+          "org_unit_name": "Unknown facility/OU",
+          "rank": 9,
+          "sample_codes": [
+            "CB41",
+            "CA71.0",
+            "CB41.2Z",
+            "CB00",
+            "CB01"
+          ],
+          "sample_texts": [
+            "aspiration pn",
+            "Respiratory failure",
+            "respiratory distre"
           ]
         },
         {
@@ -1194,24 +1194,24 @@
             "CA40.Z",
             "CA71.0",
             "CA71.2",
-            "CA40.20",
-            "CA7Z"
+            "CA7Z",
+            "CA40.20"
           ],
           "sample_texts": [
             "PNEUMONIA",
             "PNEUMONI",
-            "ASPIRATION PNE"
+            "PNEUMO"
           ]
         }
       ]
     },
     {
       "chapter": "1. Certain infectious or parasitic diseases",
-      "records_considered": 918,
+      "records_considered": 940,
       "top_families": [
         {
           "chapter": "1. Certain infectious or parasitic diseases",
-          "count": 498,
+          "count": 513,
           "family_code": "1G4",
           "rank": 1,
           "sample_codes": [
@@ -1226,7 +1226,7 @@
         },
         {
           "chapter": "1. Certain infectious or parasitic diseases",
-          "count": 110,
+          "count": 112,
           "family_code": "1F4",
           "rank": 2,
           "sample_codes": [
@@ -1244,7 +1244,7 @@
         },
         {
           "chapter": "1. Certain infectious or parasitic diseases",
-          "count": 53,
+          "count": 54,
           "family_code": "1D6",
           "rank": 3,
           "sample_codes": [
@@ -1252,31 +1252,31 @@
           ],
           "sample_texts": [
             "SEVERE RESPIRATORY",
-            "SEVERE RES",
-            "SEVERE RESPI"
+            "severe acute respiratory",
+            "SEVERE RESPIRATOR"
           ]
         },
         {
           "chapter": "1. Certain infectious or parasitic diseases",
-          "count": 44,
+          "count": 47,
           "family_code": "1D0",
           "rank": 4,
           "sample_codes": [
             "1D01.0Z",
             "1D01.Z",
             "1D00.Z",
-            "1D02.Z",
-            "1D0Z"
+            "1D0Z",
+            "1D02.Z"
           ],
           "sample_texts": [
+            "BACTERIAL ME",
             "bacterial men",
-            "MENI",
-            "BACTERIAL ME"
+            "MENI"
           ]
         },
         {
           "chapter": "1. Certain infectious or parasitic diseases",
-          "count": 43,
+          "count": 44,
           "family_code": "1B1",
           "rank": 5,
           "sample_codes": [
@@ -1289,7 +1289,7 @@
           "sample_texts": [
             "TUBER",
             "PULMONARY TB",
-            "TUBERCULOSIS MENI"
+            "disseminated tuber"
           ]
         },
         {
@@ -1306,8 +1306,8 @@
           ],
           "sample_texts": [
             "HIV",
-            "HIV DISEASE CLINICAL",
-            "OTHER SPECIFIED HIV DISEASE"
+            "OTHER SPECIFIED HIV DISEASE",
+            "HIV DISEASE CLINICAL"
           ]
         },
         {
@@ -1320,8 +1320,8 @@
           ],
           "sample_texts": [
             "UNKN",
-            "UNKNOWN",
-            "UNK"
+            "UNK",
+            "UNKNOWN"
           ]
         },
         {
@@ -1334,12 +1334,12 @@
             "1F27.1",
             "1F2G.Z",
             "1F23.Y",
-            "1F20.Z"
+            "1F2Z"
           ],
           "sample_texts": [
             "CEREBRAL CRYP",
             "CEREBRAL CRYPTO",
-            " Candida"
+            "CEREBRAL CRY"
           ]
         },
         {
@@ -1351,13 +1351,13 @@
             "1C15",
             "1C13",
             "1C1A.1",
-            "1C1A.Y",
-            "1C1D.2"
+            "1C1D.2",
+            "1C1A.Y"
           ],
           "sample_texts": [
-            "other tetanus",
-            "SEPTIC SHOC",
-            "TETAN"
+            "TETANUS",
+            "MENIN",
+            "tetanus"
           ]
         },
         {
@@ -1368,13 +1368,13 @@
           "sample_codes": [
             "1E51.0Z",
             "1E50.1",
-            "1E51.1",
             "1E50.0",
+            "1E51.1",
             "1E50.2"
           ],
           "sample_texts": [
-            "HEPATITIS B VIRUS",
             "CHRONIC VIRAL HEPA",
+            "HEPATITIS B VIRUS",
             "HEP B"
           ]
         }
@@ -1410,16 +1410,16 @@
             "1G40",
             "1D65",
             "1C62.Z",
-            "1B10.Z"
+            "1F40.Z"
           ],
           "sample_texts": [
             "HIV",
             "SEVERE RESPIRATORY",
-            "SHOCK"
+            "PULMONARY TB"
           ]
         },
         {
-          "count": 71,
+          "count": 72,
           "org_unit_code": null,
           "org_unit_id": "sFIS2oxchec",
           "org_unit_name": "Unknown facility/OU",
@@ -1447,12 +1447,29 @@
             "1G40",
             "1A32",
             "1F4Z",
-            "1F40.Y"
+            "1C62.Z"
           ],
           "sample_texts": [
+            "SEPSIS",
             "MALARIA",
-            "TUBER",
-            "SEPSIS"
+            "TUBER"
+          ]
+        },
+        {
+          "count": 52,
+          "org_unit_code": null,
+          "org_unit_id": "cK0jOJzBIvd",
+          "org_unit_name": "Unknown facility/OU",
+          "rank": 5,
+          "sample_codes": [
+            "1G41",
+            "1G40",
+            "1B13.Z",
+            "1D01.0Z",
+            "1D01.Z"
+          ],
+          "sample_texts": [
+            "CEREBRAL MAL"
           ]
         },
         {
@@ -1460,34 +1477,19 @@
           "org_unit_code": null,
           "org_unit_id": "ZpJgSAyZtkl",
           "org_unit_name": "Unknown facility/OU",
-          "rank": 5,
+          "rank": 6,
           "sample_codes": [
             "1D65",
-            "1G40",
             "1G41",
+            "1G40",
             "1D01.0Z",
             "1C82"
           ],
           "sample_texts": [
             "severe acute respiratory",
-            "PARASITOLO",
-            "other tetanus"
+            "OES",
+            "HEMOGLOBINUR"
           ]
-        },
-        {
-          "count": 43,
-          "org_unit_code": null,
-          "org_unit_id": "cK0jOJzBIvd",
-          "org_unit_name": "Unknown facility/OU",
-          "rank": 6,
-          "sample_codes": [
-            "1G41",
-            "1G40",
-            "1D01.Z",
-            "1B13.Z",
-            "1B11.0"
-          ],
-          "sample_texts": []
         },
         {
           "count": 38,
@@ -1499,13 +1501,13 @@
             "1G41",
             "1G40",
             "1D01.Z",
-            "1C80",
-            "1C1A.Y"
+            "1F27.10",
+            "1F44"
           ],
           "sample_texts": [
             "SEPSIS",
             "SEPTIC SHOC",
-            "VIRAL ENCEPHA"
+            "MENINGITIS"
           ]
         },
         {
@@ -1518,13 +1520,30 @@
             "1G40",
             "1G41",
             "1D01.Z",
-            "1F40.Z",
-            "1D00.Z"
+            "1F4Z",
+            "1F40.Z"
           ],
           "sample_texts": [
-            "SEPS",
             "MALARIA",
-            "SEVERE MALARIA"
+            "SEPS",
+            "MALA"
+          ]
+        },
+        {
+          "count": 30,
+          "org_unit_code": null,
+          "org_unit_id": "KhvLQSeeHZM",
+          "org_unit_name": "Unknown facility/OU",
+          "rank": 9,
+          "sample_codes": [
+            "1G41",
+            "1G40",
+            "1D65"
+          ],
+          "sample_texts": [
+            "septic shock",
+            "SEPTIC SHOCK",
+            "SEP"
           ]
         },
         {
@@ -1532,7 +1551,7 @@
           "org_unit_code": null,
           "org_unit_id": "cDGKAJzfkpf",
           "org_unit_name": "Unknown facility/OU",
-          "rank": 9,
+          "rank": 10,
           "sample_codes": [
             "1G41",
             "1G40",
@@ -1541,39 +1560,20 @@
             "1C60.Z"
           ],
           "sample_texts": [
-            "Sepsis with septic",
+            "septic shock",
             "sepsis",
-            "septic shock"
-          ]
-        },
-        {
-          "count": 24,
-          "org_unit_code": null,
-          "org_unit_id": "THGKB3lHEUx",
-          "org_unit_name": "Unknown facility/OU",
-          "rank": 10,
-          "sample_codes": [
-            "1G41",
-            "1G40",
-            "1D65",
-            "1F40.Z",
-            "1B1Z"
-          ],
-          "sample_texts": [
-            "ACUTE RESP",
-            "SEVERE RES",
-            "SEVERE RESPIRATORY"
+            "Sepsis with septic"
           ]
         }
       ]
     },
     {
       "chapter": "18. Pregnancy, childbirth or the puerperium",
-      "records_considered": 838,
+      "records_considered": 843,
       "top_families": [
         {
           "chapter": "18. Pregnancy, childbirth or the puerperium",
-          "count": 317,
+          "count": 318,
           "family_code": "JA86",
           "rank": 1,
           "sample_codes": [
@@ -1621,15 +1621,16 @@
         },
         {
           "chapter": "18. Pregnancy, childbirth or the puerperium",
-          "count": 47,
+          "count": 50,
           "family_code": "JB63",
           "rank": 4,
           "sample_codes": [
-            "JB63.60"
+            "JB63.60",
+            "JB63.7"
           ],
           "sample_texts": [
-            "MALARIA IN PREG",
             "MALARIA IN PRE",
+            "MALARIA IN PREG",
             "MALARIA IN PREGNANCY"
           ]
         },
@@ -1647,12 +1648,12 @@
           "sample_texts": [
             "CORD PROLAPSE",
             "CORD PRO",
-            "Tight cord"
+            "cord pro"
           ]
         },
         {
           "chapter": "18. Pregnancy, childbirth or the puerperium",
-          "count": 29,
+          "count": 30,
           "family_code": "JA8C",
           "rank": 6,
           "sample_codes": [
@@ -1662,7 +1663,7 @@
           "sample_texts": [
             "ABRUPTIO",
             "ABRUPT",
-            "placenta abr"
+            "ABRUP"
           ]
         },
         {
@@ -1679,8 +1680,8 @@
           ],
           "sample_texts": [
             "ECLAMPSIA",
-            "ECLAMP",
-            "ecl"
+            "Post partum Eclampsia",
+            "ECLAMPS"
           ]
         },
         {
@@ -1694,8 +1695,8 @@
           ],
           "sample_texts": [
             "OLI",
-            "OLIGO",
-            "CHORIOAM"
+            "CHORIOAM",
+            "OLIGO"
           ]
         },
         {
@@ -1711,7 +1712,7 @@
           "sample_texts": [
             "PPH",
             "pph",
-            "POSTP"
+            "POST PARTUM"
           ]
         },
         {
@@ -1726,8 +1727,8 @@
           ],
           "sample_texts": [
             "OBSTRUCTED LABOUR",
-            "OBSTRUCTED LABOR",
-            "OBSTRUCTED LABOUR DUE TO DY"
+            "SHOULDER DYSTOCIA",
+            "LABO"
           ]
         }
       ],
@@ -1742,13 +1743,32 @@
             "JA86.2",
             "JB42.2",
             "JA63.2",
-            "JB08.0",
-            "JA25.3"
+            "JB0D.Y",
+            "JA25.2"
           ],
           "sample_texts": [
             "FETAL HYPOXIA",
-            "CORD PROLAPSE",
+            "SEPSIS SE",
             "ECLAMPSIA"
+          ]
+        },
+        {
+          "count": 48,
+          "org_unit_code": null,
+          "org_unit_id": "BrtC10sqp45",
+          "org_unit_name": "Unknown facility/OU",
+          "rank": 2,
+          "sample_codes": [
+            "JA24.1",
+            "JA8C.Z",
+            "JA24.Z",
+            "JA41.Z",
+            "JA88.0"
+          ],
+          "sample_texts": [
+            "ABRUPTIO",
+            "PRE-EC",
+            "PRE-ECL"
           ]
         },
         {
@@ -1756,7 +1776,7 @@
           "org_unit_code": null,
           "org_unit_id": "JAPYJGfV0VY",
           "org_unit_name": "Unknown facility/OU",
-          "rank": 2,
+          "rank": 3,
           "sample_codes": [
             "JA86.2"
           ],
@@ -1764,25 +1784,6 @@
             "fetal hypoxia",
             "FETAL HYPOXIA",
             "fetal hypo"
-          ]
-        },
-        {
-          "count": 45,
-          "org_unit_code": null,
-          "org_unit_id": "BrtC10sqp45",
-          "org_unit_name": "Unknown facility/OU",
-          "rank": 3,
-          "sample_codes": [
-            "JA24.1",
-            "JA88.0",
-            "JA41.Z",
-            "JA24.Z",
-            "JA8C.Z"
-          ],
-          "sample_texts": [
-            "PRE-EC",
-            "ABRUPTIO",
-            "PRE-ECL"
           ]
         },
         {
@@ -1800,8 +1801,8 @@
           ],
           "sample_texts": [
             "MALARIA IN PRE",
-            "MALARIA IN PREGN",
-            "PRE-ECLA"
+            "PRE-ECLA",
+            "MALARIA IN PREGN"
           ]
         },
         {
@@ -1812,15 +1813,15 @@
           "rank": 5,
           "sample_codes": [
             "JB07.Z",
-            "JA24.Z",
             "JA41.Z",
-            "JB08.0",
-            "JA86.4"
+            "JA24.Z",
+            "JA86.4",
+            "JB08.0"
           ],
           "sample_texts": [
             "FETAL DISTRESS",
             "CORD PROLAPSE",
-            "PET"
+            "SEPTICAEMIA"
           ]
         },
         {
@@ -1849,14 +1850,14 @@
           "rank": 7,
           "sample_codes": [
             "JA86.2",
-            "JB0C.0",
             "JA8C.Z",
+            "JB0C.0",
             "JA8C.0"
           ],
           "sample_texts": [
-            "Fetal hypo",
-            "FETAL HYP",
-            "ABRU"
+            "ABRUPT",
+            "ABRU",
+            "FETAL HYP"
           ]
         },
         {
@@ -1867,15 +1868,15 @@
           "rank": 8,
           "sample_codes": [
             "JA86.2",
-            "JB0A.1",
-            "JB40.0",
+            "JB0C.Z",
             "JA88.1",
-            "JB0C.Z"
+            "JB40.0",
+            "JB0A.1"
           ],
           "sample_texts": [
             "HYPOXIA FETAL",
-            "RUPTURED UTERU",
-            "FETAL HYPO"
+            "FETAL HYPOXIA",
+            "CHORIOAM"
           ]
         },
         {
@@ -1886,15 +1887,15 @@
           "rank": 9,
           "sample_codes": [
             "JA86.4",
+            "JB08.0",
             "JA24.Z",
             "JB0A.1",
-            "JB08.0",
-            "JA88.1"
+            "JA8C.Z"
           ],
           "sample_texts": [
             "PLACENTAL",
-            "PRE-E",
-            "CHORIOAM"
+            "PLACENTAL INSUFFICIENCY",
+            "PLACENTA ABRUPTIO"
           ]
         },
         {
@@ -1906,13 +1907,13 @@
           "sample_codes": [
             "JA62.4",
             "JA86.2",
-            "JA05.0",
             "JB0D.1",
-            "JA25.0"
+            "JA05.0",
+            "JB0C.0"
           ],
           "sample_texts": [
-            "INTRA UTERINE",
-            "FETAL HYPO",
+            "fetal dis",
+            "HYPOXIA",
             "INTRA UTERINE H"
           ]
         }
@@ -1920,11 +1921,11 @@
     },
     {
       "chapter": "8. Diseases of the nervous system",
-      "records_considered": 372,
+      "records_considered": 375,
       "top_families": [
         {
           "chapter": "8. Diseases of the nervous system",
-          "count": 187,
+          "count": 189,
           "family_code": "8B2",
           "rank": 1,
           "sample_codes": [
@@ -1937,25 +1938,25 @@
           "sample_texts": [
             "HYPOXIC",
             "HYPOXIC ISC",
-            "HYPOXIC ISCHA"
+            "HYPOXIC ISCH"
           ]
         },
         {
           "chapter": "8. Diseases of the nervous system",
-          "count": 48,
+          "count": 49,
           "family_code": "8D6",
           "rank": 2,
           "sample_codes": [
             "8D60.Z",
             "8D64.Z",
-            "8D60.1",
             "8D60.0",
+            "8D60.1",
             "8D60.Y"
           ],
           "sample_texts": [
             "HYDRO",
-            "HYDROCEP",
-            "increased intrac"
+            "ex-",
+            "HYDROCE"
           ]
         },
         {
@@ -1971,7 +1972,7 @@
             "8B02"
           ],
           "sample_texts": [
-            "subdural haemorrhage acute nontraumatic",
+            "ANTERIOR COMM",
             "HEMORRHAGE BRA",
             "INTRACRANIAL HEMORR"
           ]
@@ -1990,13 +1991,13 @@
           ],
           "sample_texts": [
             "CEREBRAL ISCHAEMIC",
-            "CEREBRAL ISCHAEMIC STROKE",
-            "CEREBRAL"
+            "CEREBRAL",
+            "CEREBRAL ISCHAEMIC STROKE"
           ]
         },
         {
           "chapter": "8. Diseases of the nervous system",
-          "count": 19,
+          "count": 20,
           "family_code": "8E4",
           "rank": 5,
           "sample_codes": [
@@ -2005,8 +2006,8 @@
             "8E41.Z"
           ],
           "sample_texts": [
-            "METABOLIC EN",
-            "BRAIN INJURY"
+            "BRAIN INJURY",
+            "METABOLIC EN"
           ]
         },
         {
@@ -2016,8 +2017,8 @@
           "rank": 6,
           "sample_codes": [
             "8A06.Y",
-            "8A06.21",
-            "8A07.01"
+            "8A07.01",
+            "8A06.21"
           ],
           "sample_texts": [
             "HYPOXIA",
@@ -2027,20 +2028,20 @@
         },
         {
           "chapter": "8. Diseases of the nervous system",
-          "count": 13,
+          "count": 12,
           "family_code": "8A6",
           "rank": 7,
           "sample_codes": [
             "8A66.Z",
-            "8A60.01",
             "8A6Z",
-            "8A66.1Y",
-            "8A60.5"
+            "8A60.01",
+            "8A60.5",
+            "8A66.1Y"
           ],
           "sample_texts": [
             "STATUS",
-            "Traumatic brain",
-            "HYPOXIC ISCHEMIC"
+            "neonatal hypoxic",
+            "EPILEPSY"
           ]
         },
         {
@@ -2053,8 +2054,8 @@
             "8A84.0"
           ],
           "sample_texts": [
-            "severe head",
             "SEVERE HEAD",
+            "severe head",
             "SEVERE TRAUMATIC HEAD IN"
           ]
         },
@@ -2081,8 +2082,8 @@
           "rank": 10,
           "sample_codes": [
             "8A40.Z",
-            "8A44.1",
-            "8A45.02"
+            "8A45.02",
+            "8A44.1"
           ],
           "sample_texts": [
             "disseminated"
@@ -2091,41 +2092,41 @@
       ],
       "top_org_units": [
         {
+          "count": 46,
+          "org_unit_code": null,
+          "org_unit_id": "sFIS2oxchec",
+          "org_unit_name": "Unknown facility/OU",
+          "rank": 1,
+          "sample_codes": [
+            "8B24.Z",
+            "8B20",
+            "8E47",
+            "8D60.1",
+            "8B24.Y"
+          ],
+          "sample_texts": [
+            "HYPOXIC",
+            "HYPOXIC ISCH",
+            "HYPOXIC ISC"
+          ]
+        },
+        {
           "count": 44,
           "org_unit_code": null,
           "org_unit_id": "HpJYuf9iyz2",
           "org_unit_name": "Unknown facility/OU",
-          "rank": 1,
+          "rank": 2,
           "sample_codes": [
             "8B24.Z",
             "8B11.5Z",
             "8B20",
             "8B11",
-            "8A66.Z"
+            "8B2Z"
           ],
           "sample_texts": [
-            "HYPOXIC ISCHA",
+            "STROKE NOT SPECIFIED AS HAEMORRHAGE OR INFARCTION",
             "CEREBRAL ISCHAEMIC",
-            "STROKE NOT SPECIFIED AS HAEMORRHAGE OR INFARCTION"
-          ]
-        },
-        {
-          "count": 43,
-          "org_unit_code": null,
-          "org_unit_id": "sFIS2oxchec",
-          "org_unit_name": "Unknown facility/OU",
-          "rank": 2,
-          "sample_codes": [
-            "8B24.Z",
-            "8B20",
-            "8E47",
-            "8B24.Y",
-            "8D60.1"
-          ],
-          "sample_texts": [
-            "HYPOXIC",
-            "HYPOXIC ISCH",
-            "HYPOXI"
+            "HYPOXIC ISCHA"
           ]
         },
         {
@@ -2139,12 +2140,12 @@
             "8B20",
             "8B00.Z",
             "8D60.Z",
-            "8B11"
+            "8B22.8"
           ],
           "sample_texts": [
             "HYPOXIC",
-            "HYPOXI",
-            "SEVERE BRAIN INJURY"
+            "HYPER TENSIVE",
+            "HYPOXIC ISCHEM"
           ]
         },
         {
@@ -2156,9 +2157,9 @@
           "sample_codes": [
             "8B24.Z",
             "8B0Z",
-            "8B11.5Z",
-            "8B00.4",
-            "8B24.Y"
+            "8B81.0",
+            "8B20",
+            "8D60.1"
           ],
           "sample_texts": [
             "HYPOXIC",
@@ -2176,13 +2177,13 @@
             "8B24.Z",
             "8B20",
             "8B01.0",
-            "8B02",
-            "8D43.0Z"
+            "8C03.2",
+            "8B22.8"
           ],
           "sample_texts": [
-            "subdural haemorrhage acute nontraumatic",
-            "STROKE",
-            "hypoxic isch"
+            "ANTERIOR COMM",
+            "disseminated",
+            "ex-"
           ]
         },
         {
@@ -2194,13 +2195,13 @@
           "sample_codes": [
             "8B24.Z",
             "8B20",
-            "8B00.Z",
-            "8D60.Z",
-            "8A66.Z"
+            "8D60.0",
+            "8A66.Z",
+            "8D60.Z"
           ],
           "sample_texts": [
-            "STROK",
             "STROKE",
+            "STROK",
             "SEVERE TRAUMATIC HEAD IN"
           ]
         },
@@ -2213,9 +2214,9 @@
           "sample_codes": [
             "8B20",
             "8C70.6",
-            "8B11",
-            "8D60.Z",
-            "8D60.Y"
+            "8A40.Z",
+            "8E4Y",
+            "8B24.Z"
           ],
           "sample_texts": [
             "MEB",
@@ -2229,8 +2230,8 @@
           "org_unit_name": "Unknown facility/OU",
           "rank": 8,
           "sample_codes": [
-            "8D60.Z",
             "8B20",
+            "8D60.Z",
             "8B00.Z",
             "8B24.Z",
             "8A07.01"
@@ -2249,8 +2250,8 @@
           "rank": 9,
           "sample_codes": [
             "8D60.Z",
-            "8D2Z",
             "8E4Y",
+            "8D2Z",
             "8B11.4",
             "8D60.1"
           ],
@@ -2268,19 +2269,19 @@
           ],
           "sample_texts": [
             "HYPOXIC",
-            "ORGANOPHOS",
-            "HYPOXIC ISCHE"
+            "HYPOXIC ISCHE",
+            "ORGANOPHOS"
           ]
         }
       ]
     },
     {
       "chapter": "11. Diseases of the circulatory system",
-      "records_considered": 354,
+      "records_considered": 357,
       "top_families": [
         {
           "chapter": "11. Diseases of the circulatory system",
-          "count": 99,
+          "count": 100,
           "family_code": "BD1",
           "rank": 1,
           "sample_codes": [
@@ -2295,7 +2296,7 @@
         },
         {
           "chapter": "11. Diseases of the circulatory system",
-          "count": 48,
+          "count": 50,
           "family_code": "BB00",
           "rank": 2,
           "sample_codes": [
@@ -2304,9 +2305,9 @@
             "BB00.1"
           ],
           "sample_texts": [
-            "Pulmonary embo",
-            "pulmonary emboli",
-            "PULMONARY EMBOLI"
+            "Pulmonar",
+            "PULMONARY EMBOLI",
+            "pulmonary emboli"
           ]
         },
         {
@@ -2319,7 +2320,7 @@
           ],
           "sample_texts": [
             "CONGESTIVE",
-            "CONGESTI",
+            "congestive",
             "CONGEST"
           ]
         },
@@ -2334,7 +2335,7 @@
           "sample_texts": [
             "HTN",
             "ESSENTIAL HYPERTENSION",
-            "HYPERTENSIVE HEART D"
+            "artery hyperten"
           ]
         },
         {
@@ -2346,9 +2347,9 @@
             "BA01"
           ],
           "sample_texts": [
-            "ccf",
+            "HYPERTENSIVE HEART DISEASE WITH CONGESTIVE",
             "CCF",
-            "HYPERTENSIVE HEART DISEASE WITH CONGESTIVE"
+            "ccf"
           ]
         },
         {
@@ -2360,39 +2361,40 @@
             "BA4Z"
           ],
           "sample_texts": [
-            "ACUTE CORONARY SY",
+            "HYPOXIA",
             "CYANOTIC",
-            "HYPOXIA"
+            "ACUTE CORONARY SY"
           ]
         },
         {
           "chapter": "11. Diseases of the circulatory system",
           "count": 11,
-          "family_code": "BE2",
-          "rank": 7,
-          "sample_codes": [
-            "BE2Y",
-            "BE2Z"
-          ],
-          "sample_texts": [
-            "card",
-            "CARDIOVAS"
-          ]
-        },
-        {
-          "chapter": "11. Diseases of the circulatory system",
-          "count": 10,
           "family_code": "BA60",
-          "rank": 8,
+          "rank": 7,
           "sample_codes": [
             "BA60.5",
             "BA60.9",
+            "BA60.4",
             "BA60.Z"
           ],
           "sample_texts": [
             "PULMONARY EMBOLISM AS CURRE",
             "PULMONARY EMBOLI",
             "Pulmonary emboli"
+          ]
+        },
+        {
+          "chapter": "11. Diseases of the circulatory system",
+          "count": 11,
+          "family_code": "BE2",
+          "rank": 8,
+          "sample_codes": [
+            "BE2Y",
+            "BE2Z"
+          ],
+          "sample_texts": [
+            "CARDIOVAS",
+            "card"
           ]
         },
         {
@@ -2417,8 +2419,8 @@
             "BA41.Z"
           ],
           "sample_texts": [
-            "MYOCARDIAL",
             "ACUTE MYOCARDIAL",
+            "MYOCARDIAL",
             "acute myo"
           ]
         }
@@ -2435,12 +2437,12 @@
             "BD10",
             "BA00.Z",
             "BA60.5",
-            "BB00.0"
+            "BA01"
           ],
           "sample_texts": [
             "HEART FAILURE",
             "CONGESTIVE",
-            "PULMONARY EMBOLISM AS CURRE"
+            "HEART FA"
           ]
         },
         {
@@ -2457,9 +2459,9 @@
             "BD1Y"
           ],
           "sample_texts": [
-            "HEART FAIL",
-            "Pulmonary embo",
-            "pulmonary emboli"
+            "heart fail",
+            "pulmonary emboli",
+            "Pulmonary embo"
           ]
         },
         {
@@ -2470,15 +2472,15 @@
           "rank": 3,
           "sample_codes": [
             "BD1Z",
-            "BD5Y",
             "BB00.1",
             "BD10",
-            "BA03"
+            "BB00.Z",
+            "BD5Y"
           ],
           "sample_texts": [
-            "HEART",
-            "THROMBOSIS OF ATRI",
-            "HYPERTENSIVE EM"
+            "Congestive heart failu",
+            "Embolism and thrombosis of unspecified",
+            "CCM"
           ]
         },
         {
@@ -2489,19 +2491,19 @@
           "rank": 4,
           "sample_codes": [
             "BB00.Z",
-            "BA41.Z",
+            "BB0Y",
             "BA00.Z",
             "BD1Z",
-            "BB0Y"
+            "BA41.Z"
           ],
           "sample_texts": [
-            "MYOCARDIAL",
-            "CONGESTIVE HEART FAILURE",
-            "HYPOTENSION"
+            "CHRONIC RHEUMATIC HEART",
+            "PULMONARY CIRCULATION",
+            "PULMONARY HEART"
           ]
         },
         {
-          "count": 14,
+          "count": 15,
           "org_unit_code": null,
           "org_unit_id": "sFIS2oxchec",
           "org_unit_name": "Unknown facility/OU",
@@ -2509,8 +2511,8 @@
           "sample_codes": [
             "BD1Z",
             "BB00.Z",
-            "BD10",
             "BD11.Z",
+            "BD10",
             "BA41.Z"
           ],
           "sample_texts": [
@@ -2518,39 +2520,39 @@
           ]
         },
         {
-          "count": 13,
+          "count": 14,
           "org_unit_code": null,
-          "org_unit_id": "QDc7Wijvfca",
+          "org_unit_id": "ZpJgSAyZtkl",
           "org_unit_name": "Unknown facility/OU",
           "rank": 6,
           "sample_codes": [
-            "BA01",
-            "BA2Z",
-            "BC43.Z",
+            "BA00.Z",
             "BD10",
-            "BA20"
+            "BB00.Z",
+            "BA60.4",
+            "BA02"
           ],
           "sample_texts": [
-            "Idiopathic hypotensio"
+            "artery hyperten",
+            "congestive he",
+            "HYPERTENSIVE RENAL DISEAS"
           ]
         },
         {
           "count": 13,
           "org_unit_code": null,
-          "org_unit_id": "ZpJgSAyZtkl",
+          "org_unit_id": "QDc7Wijvfca",
           "org_unit_name": "Unknown facility/OU",
           "rank": 7,
           "sample_codes": [
+            "BA01",
+            "BA2Z",
             "BA00.Z",
-            "BD10",
-            "BB00.Z",
-            "BA02",
-            "BC43.0Z"
+            "BC43.Z",
+            "BD10"
           ],
           "sample_texts": [
-            "HYPERTENSIVE RENAL DISEAS",
-            "DILATED CARDIOMYOPATHY",
-            "congestive he"
+            "Idiopathic hypotensio"
           ]
         },
         {
@@ -2563,8 +2565,8 @@
             "BB00.Z",
             "BD1Z",
             "BE2Y",
-            "BA00.Z",
-            "BA01"
+            "BA01",
+            "BA00.Z"
           ],
           "sample_texts": [
             "HYPERTENSIVE EM"
@@ -2578,9 +2580,9 @@
           "rank": 9,
           "sample_codes": [
             "BD1Z",
-            "BB00.Z",
             "BA01",
-            "BE2Y",
+            "BB00.Z",
+            "BB02.3",
             "BA4Z"
           ],
           "sample_texts": [
@@ -2607,11 +2609,11 @@
     },
     {
       "chapter": "5. Endocrine, nutritional or metabolic diseases",
-      "records_considered": 295,
+      "records_considered": 301,
       "top_families": [
         {
           "chapter": "5. Endocrine, nutritional or metabolic diseases",
-          "count": 128,
+          "count": 132,
           "family_code": "5C7",
           "rank": 1,
           "sample_codes": [
@@ -2622,9 +2624,9 @@
             "5C73.Z"
           ],
           "sample_texts": [
-            "HYPOV",
+            "HYPERKALAEMIA",
             "DEHYDRATION",
-            "HYPERKALAEMIA"
+            "HYPOV"
           ]
         },
         {
@@ -2635,19 +2637,19 @@
           "sample_codes": [
             "5A41",
             "5A4Z",
-            "5A4Y",
             "5A40.Z",
+            "5A4Y",
             "5A43.Y"
           ],
           "sample_texts": [
-            "HYPO",
             "HYPOG",
-            "hypogly"
+            "HYPO",
+            "HYPOGLYCEMIA"
           ]
         },
         {
           "chapter": "5. Endocrine, nutritional or metabolic diseases",
-          "count": 34,
+          "count": 36,
           "family_code": "5A2",
           "rank": 3,
           "sample_codes": [
@@ -2655,12 +2657,12 @@
             "5A22.3",
             "5A20.Z",
             "5A20.0",
-            "5A21.Z"
+            "5A22.2"
           ],
           "sample_texts": [
             "DIABETIC KETO",
             "DIABETIC KETOACIDOSIS",
-            "DIABETIC HYPERO"
+            "DIABETIC KETOACIDOSIS WITHOU"
           ]
         },
         {
@@ -2675,9 +2677,9 @@
             "5A10"
           ],
           "sample_texts": [
-            "DIAB",
-            "DIABETES",
-            "DIA"
+            "DIABETS",
+            "DIA",
+            "DIABETES"
           ]
         },
         {
@@ -2688,13 +2690,13 @@
           "sample_codes": [
             "5B52",
             "5B5A.10",
-            "5B5B",
             "5B51",
+            "5B5B",
             "5B5K.0"
           ],
           "sample_texts": [
             "SEVERE ACUTE MAL",
-            "SEVERE ACUTE MALNU",
+            "WERNI",
             "SEVERE ACUTE MA"
           ]
         },
@@ -2704,16 +2706,16 @@
           "family_code": "5C5",
           "rank": 6,
           "sample_codes": [
-            "5C5Z",
             "5C58.0Y",
+            "5C5Z",
             "5C53.2Y",
-            "5C50.D0",
-            "5C56.21"
+            "5C56.21",
+            "5C50.D0"
           ],
           "sample_texts": [
-            "CONG",
+            "Conge",
             "oli",
-            "Conge"
+            "CONG"
           ]
         },
         {
@@ -2725,13 +2727,13 @@
             "5A00.2Z",
             "5A00.0Y",
             "5A00.00",
-            "5A02.Z",
-            "5A00.03"
+            "5A00.03",
+            "5A02.Z"
           ],
           "sample_texts": [
             "NEONATAL",
-            "ATHYRO",
-            "other specified hypothyroidism"
+            "HYPOTH",
+            "FETAL"
           ]
         },
         {
@@ -2744,8 +2746,8 @@
             "5B7Y"
           ],
           "sample_texts": [
-            "PEM",
             "retarded development",
+            "PEM",
             "SEVERE MAL"
           ]
         },
@@ -2756,12 +2758,12 @@
           "rank": 9,
           "sample_codes": [
             "5C64.3",
-            "5C63.22",
-            "5C64.10"
+            "5C64.10",
+            "5C63.22"
           ],
           "sample_texts": [
-            "FETAL HYPO",
-            "FETAL HY"
+            "FETAL HY",
+            "FETAL HYPO"
           ]
         },
         {
@@ -2780,7 +2782,7 @@
       ],
       "top_org_units": [
         {
-          "count": 29,
+          "count": 30,
           "org_unit_code": null,
           "org_unit_id": "sFIS2oxchec",
           "org_unit_name": "Unknown facility/OU",
@@ -2788,8 +2790,8 @@
           "sample_codes": [
             "5C76",
             "5C7Y",
-            "5A41",
             "5A22.0",
+            "5A41",
             "5C77"
           ],
           "sample_texts": []
@@ -2803,33 +2805,33 @@
           "sample_codes": [
             "5A22.0",
             "5A22.3",
-            "5C70.0",
-            "5C7Z",
-            "5C76"
+            "5B60",
+            "5C76",
+            "5C70.0"
           ],
           "sample_texts": [
             "DIABETIC KETO",
-            "DEHYDRATION",
+            "HYPOGLYCEMIA",
             "HYPERKALAEMIA"
           ]
         },
         {
-          "count": 22,
+          "count": 24,
           "org_unit_code": null,
           "org_unit_id": "K2BGHpaUluP",
           "org_unit_name": "Unknown facility/OU",
           "rank": 3,
           "sample_codes": [
-            "5A41",
             "5C7Y",
+            "5A41",
+            "5C76",
             "5B52",
-            "5A14",
-            "5C76"
+            "5A14"
           ],
           "sample_texts": [
-            "SEVERE ACUTE MALNU",
-            "DIABETES MEL",
-            "SEVERE ACUTE MAL"
+            "HYPOG",
+            "hypoglycem",
+            "Other disorders of electrolyte and fluid balance, not elsewhere class"
           ]
         },
         {
@@ -2843,12 +2845,12 @@
             "5C7Y",
             "5C73.2",
             "5C70.1",
-            "5B5B"
+            "5C78"
           ],
           "sample_texts": [
-            "ATHYRO",
+            "ANION GAP",
             "HYPERKALEMIA",
-            "ANION GAP"
+            "ATHYRO"
           ]
         },
         {
@@ -2860,13 +2862,13 @@
           "sample_codes": [
             "5C73.Z",
             "5C7Y",
-            "5C76",
             "5A00.0Y",
-            "5C78"
+            "5C78",
+            "5C76"
           ],
           "sample_texts": [
-            "TYPE 2 DIAB",
-            "DIABETIC KETOACIDOSIS",
+            "FLUID OVER LOAD",
+            "other disorders of elect",
             "other specified hypothyroidism"
           ]
         },
@@ -2877,16 +2879,16 @@
           "org_unit_name": "Unknown facility/OU",
           "rank": 6,
           "sample_codes": [
-            "5C7Y",
             "5A14",
+            "5C7Y",
             "5A41",
-            "5A02.Z",
+            "5B7Z",
             "5C70.1"
           ],
           "sample_texts": [
-            "HYPO",
+            "PEM",
             "DIA",
-            "PEM"
+            "HYPO"
           ]
         },
         {
@@ -2897,8 +2899,8 @@
           "rank": 7,
           "sample_codes": [
             "5C76",
-            "5C7Y",
-            "5A22.3"
+            "5A22.3",
+            "5C7Y"
           ],
           "sample_texts": [
             "ELECTROLYTE IM"
@@ -2954,11 +2956,11 @@
     },
     {
       "chapter": "22. Injury, poisoning or certain other consequences of external causes",
-      "records_considered": 233,
+      "records_considered": 238,
       "top_families": [
         {
           "chapter": "22. Injury, poisoning or certain other consequences of external causes",
-          "count": 78,
+          "count": 80,
           "family_code": "NA07",
           "rank": 1,
           "sample_codes": [
@@ -2976,7 +2978,7 @@
         },
         {
           "chapter": "22. Injury, poisoning or certain other consequences of external causes",
-          "count": 31,
+          "count": 34,
           "family_code": "NF0A",
           "rank": 2,
           "sample_codes": [
@@ -2986,9 +2988,9 @@
             "NF0A.0"
           ],
           "sample_texts": [
-            "HYPOV",
+            "TRAUMATIC SHOCK",
             "hypovolemic s",
-            "TRAUMATIC SHOCK"
+            "HYPOV"
           ]
         },
         {
@@ -3017,8 +3019,8 @@
           ],
           "sample_texts": [
             "RUPTURED UTERUS",
-            "RUPTURED UTER",
-            "RUPTURED UTE"
+            "INTRA UTERO",
+            "ruptured ute"
           ]
         },
         {
@@ -3032,7 +3034,7 @@
           "sample_texts": [
             "HEAD INJURY",
             "HEAD INJU",
-            "HEAD INJUR"
+            "head inju"
           ]
         },
         {
@@ -3044,9 +3046,9 @@
             "NF05"
           ],
           "sample_texts": [
-            "SUFFOCATION",
+            "ASP",
             "SUFF",
-            "ASP"
+            "SUFFOCATION"
           ]
         },
         {
@@ -3058,9 +3060,9 @@
             "NE61"
           ],
           "sample_texts": [
-            "ACUTE POISONING",
-            "UTI",
-            "organophosphate"
+            "organophos",
+            "organophosphate",
+            "UTI"
           ]
         },
         {
@@ -3073,8 +3075,8 @@
           ],
           "sample_texts": [
             "RHESUS",
-            "rhes",
-            "Rhesus inc"
+            "Rhesus inc",
+            "rhes"
           ]
         },
         {
@@ -3095,19 +3097,19 @@
           "family_code": "NA02",
           "rank": 10,
           "sample_codes": [
-            "NA02.1Z",
+            "NA02.7Y",
             "NA02.Z",
-            "NA02.7Y"
+            "NA02.1Z"
           ],
           "sample_texts": [
-            "facial fracture",
-            "Fracture mandible and maxilla"
+            "Fracture mandible and maxilla",
+            "facial fracture"
           ]
         }
       ],
       "top_org_units": [
         {
-          "count": 40,
+          "count": 43,
           "org_unit_code": null,
           "org_unit_id": "ZpJgSAyZtkl",
           "org_unit_name": "Unknown facility/OU",
@@ -3115,18 +3117,18 @@
           "sample_codes": [
             "NF0A.4",
             "NA07.4Z",
-            "NA07.Z",
             "NA0Z",
-            "NA08.Z"
+            "NA07.Z",
+            "ND72.Z"
           ],
           "sample_texts": [
             "focal brain injury",
-            "focal brain inj",
-            "focal br"
+            "HEAD INJU",
+            "TRAUMATIC BRAIN INJ"
           ]
         },
         {
-          "count": 22,
+          "count": 23,
           "org_unit_code": null,
           "org_unit_id": "K2BGHpaUluP",
           "org_unit_name": "Unknown facility/OU",
@@ -3134,14 +3136,14 @@
           "sample_codes": [
             "NF02",
             "NA07.4Z",
-            "NA07.3Y",
-            "NA07.Y",
-            "NA07.3Z"
+            "NE60",
+            "NA07.3Z",
+            "NA07.3Y"
           ],
           "sample_texts": [
             "BRAIN INJURY",
-            "DIFFUSE BRAIN INJURY",
-            "Hypotherm"
+            "BRAIN",
+            "DIFFUSE BRAIN INJURY"
           ]
         },
         {
@@ -3152,14 +3154,14 @@
           "rank": 3,
           "sample_codes": [
             "NA07.Z",
-            "NB92.6",
-            "NE61",
+            "NF0A.4",
+            "NA07.6Z",
             "NA02.Z",
-            "NA07.6Z"
+            "NE61"
           ],
           "sample_texts": [
             "TBI",
-            "ruptured ute",
+            "facial fracture",
             "organophos"
           ]
         },
@@ -3171,15 +3173,15 @@
           "rank": 4,
           "sample_codes": [
             "NA0Z",
-            "NF02",
             "NA07.Z",
-            "NA07.8Z",
-            "NB3Z"
+            "NF02",
+            "NA07.6Z",
+            "NA07.3Y"
           ],
           "sample_texts": [
             "HEAD INJURY",
             "TBI",
-            "HYPOTHERMIA"
+            "TRAUMATIC SUBD"
           ]
         },
         {
@@ -3209,13 +3211,13 @@
             "NF02",
             "NA07.Z",
             "NA0Z",
-            "NA07.8Z",
-            "NE01"
+            "ND7Z",
+            "NA07.8Y"
           ],
           "sample_texts": [
             "HYPOTHERMIA",
-            "TRAUMATIC HAEMORRHAGE",
-            "BURNS INVOLVING"
+            "EFFECTS OF FOREIG",
+            "OTHER SPECIFIED TRAUMATIC"
           ]
         },
         {
@@ -3226,8 +3228,8 @@
           "rank": 7,
           "sample_codes": [
             "NA07.4Z",
-            "NA07.Z",
             "NF0A.1",
+            "NA07.Z",
             "NA07.1",
             "NA07.Y"
           ],
@@ -3245,12 +3247,12 @@
           "sample_codes": [
             "NA07.Z",
             "NB92.6",
-            "NF02",
-            "ND37"
+            "ND37",
+            "NF02"
           ],
           "sample_texts": [
-            "RUPTURED UTER",
             "RUPTUR",
+            "RUPTURED UTER",
             "closed brain injury"
           ]
         },
@@ -3276,28 +3278,28 @@
           "org_unit_name": "Unknown facility/OU",
           "rank": 10,
           "sample_codes": [
-            "NF0A.4",
             "NA07.Z",
-            "NB33.0",
-            "NA07.4Z"
+            "NF0A.4",
+            "NA07.4Z",
+            "NB33.0"
           ],
           "sample_texts": [
-            "traumatic brain inju",
-            "BRAIN INJURY"
+            "BRAIN INJURY",
+            "traumatic brain inju"
           ]
         }
       ]
     }
   ],
   "event_year": 2026,
-  "generated_at": "2026-10-04T00:12:59Z",
-  "records_considered": 19976,
+  "generated_at": "2026-10-06T00:13:01Z",
+  "records_considered": 19966,
   "source": "logs.db (event year 2026)",
   "status_filter": "all",
   "top_chapters": [
     {
       "chapter": "Unknown / missing ICD code",
-      "count": 10061,
+      "count": 9923,
       "rank": 1,
       "sample_codes": [],
       "sample_texts": [
@@ -3308,7 +3310,7 @@
     },
     {
       "chapter": "19. Certain conditions originating in the perinatal period",
-      "count": 2771,
+      "count": 2775,
       "rank": 2,
       "sample_codes": [
         "KB20.Z",
@@ -3319,13 +3321,13 @@
       ],
       "sample_texts": [
         "BIRTH ASP",
-        "BIRTH ASPHYXIA",
-        "BIRTH ASPH"
+        "BIRTH ASPH",
+        "BIRTH ASPHYXIA"
       ]
     },
     {
       "chapter": "21. Symptoms, signs or clinical findings, not elsewhere classified",
-      "count": 1898,
+      "count": 1942,
       "rank": 3,
       "sample_codes": [
         "MD11.1",
@@ -3342,7 +3344,7 @@
     },
     {
       "chapter": "12. Diseases of the respiratory system",
-      "count": 1178,
+      "count": 1202,
       "rank": 4,
       "sample_codes": [
         "CB41",
@@ -3359,14 +3361,14 @@
     },
     {
       "chapter": "1. Certain infectious or parasitic diseases",
-      "count": 918,
+      "count": 940,
       "rank": 5,
       "sample_codes": [
         "1G41",
         "1G40",
         "1D65",
         "1F4Z",
-        "1H0Z"
+        "1F40.Z"
       ],
       "sample_texts": [
         "SEPSIS",
@@ -3376,12 +3378,12 @@
     },
     {
       "chapter": "18. Pregnancy, childbirth or the puerperium",
-      "count": 838,
+      "count": 843,
       "rank": 6,
       "sample_codes": [
         "JA86.2",
-        "JA41.Z",
         "JB63.60",
+        "JA41.Z",
         "JA24.Z",
         "JA86.4"
       ],
@@ -3393,7 +3395,7 @@
     },
     {
       "chapter": "8. Diseases of the nervous system",
-      "count": 372,
+      "count": 375,
       "rank": 7,
       "sample_codes": [
         "8B24.Z",
@@ -3405,12 +3407,12 @@
       "sample_texts": [
         "HYPOXIC",
         "HYPOXIC ISC",
-        "HYPOXIC ISCHA"
+        "HYPOXIC ISCH"
       ]
     },
     {
       "chapter": "11. Diseases of the circulatory system",
-      "count": 354,
+      "count": 357,
       "rank": 8,
       "sample_codes": [
         "BD1Z",
@@ -3427,43 +3429,43 @@
     },
     {
       "chapter": "5. Endocrine, nutritional or metabolic diseases",
-      "count": 295,
+      "count": 301,
       "rank": 9,
       "sample_codes": [
         "5C7Y",
         "5A41",
         "5C76",
-        "5A14",
-        "5A22.0"
+        "5A22.0",
+        "5A14"
       ],
       "sample_texts": [
         "DIABETIC KETO",
-        "HYPO",
-        "HYPOG"
+        "HYPOG",
+        "HYPO"
       ]
     },
     {
       "chapter": "22. Injury, poisoning or certain other consequences of external causes",
-      "count": 233,
+      "count": 238,
       "rank": 10,
       "sample_codes": [
         "NA07.Z",
-        "NF02",
         "NF0A.4",
+        "NF02",
         "NA0Z",
         "NB92.6"
       ],
       "sample_texts": [
         "TBI",
         "HEAD INJURY",
-        "HYPOTHER"
+        "BRAIN INJURY"
       ]
     }
   ],
   "top_families": [
     {
       "chapter": "Unknown / missing ICD code",
-      "count": 10061,
+      "count": 9923,
       "family_code": "UNKNOWN",
       "rank": 1,
       "sample_codes": [],
@@ -3487,13 +3489,13 @@
       ],
       "sample_texts": [
         "BIRTH ASP",
-        "BIRTH ASPHYXIA",
-        "BIRTH ASPH"
+        "BIRTH ASPH",
+        "BIRTH ASPHYXIA"
       ]
     },
     {
       "chapter": "19. Certain conditions originating in the perinatal period",
-      "count": 706,
+      "count": 710,
       "family_code": "KB20",
       "rank": 3,
       "sample_codes": [
@@ -3509,7 +3511,7 @@
     },
     {
       "chapter": "1. Certain infectious or parasitic diseases",
-      "count": 498,
+      "count": 513,
       "family_code": "1G4",
       "rank": 4,
       "sample_codes": [
@@ -3524,7 +3526,7 @@
     },
     {
       "chapter": "12. Diseases of the respiratory system",
-      "count": 465,
+      "count": 467,
       "family_code": "CB41",
       "rank": 5,
       "sample_codes": [
@@ -3537,12 +3539,12 @@
       "sample_texts": [
         "RESPIRATORY FAILURE",
         "RESPIRATORY",
-        "RESPIRAT"
+        "RESPIRA"
       ]
     },
     {
       "chapter": "21. Symptoms, signs or clinical findings, not elsewhere classified",
-      "count": 404,
+      "count": 406,
       "family_code": "MD11",
       "rank": 6,
       "sample_codes": [
@@ -3559,7 +3561,7 @@
     },
     {
       "chapter": "21. Symptoms, signs or clinical findings, not elsewhere classified",
-      "count": 372,
+      "count": 385,
       "family_code": "MC82",
       "rank": 7,
       "sample_codes": [
@@ -3571,12 +3573,12 @@
       "sample_texts": [
         "CARDIAC ARREST",
         "CARDIAC ARR",
-        "cardiac arrest"
+        "CARDIAC ARRE"
       ]
     },
     {
       "chapter": "21. Symptoms, signs or clinical findings, not elsewhere classified",
-      "count": 345,
+      "count": 361,
       "family_code": "MG40",
       "rank": 8,
       "sample_codes": [
@@ -3588,12 +3590,12 @@
       "sample_texts": [
         "SHOCK",
         "HYPOVO",
-        "HAEMORRHAGIC SH"
+        "HYPOVOLAEMIC"
       ]
     },
     {
       "chapter": "18. Pregnancy, childbirth or the puerperium",
-      "count": 317,
+      "count": 318,
       "family_code": "JA86",
       "rank": 9,
       "sample_codes": [
@@ -3610,7 +3612,7 @@
     },
     {
       "chapter": "19. Certain conditions originating in the perinatal period",
-      "count": 316,
+      "count": 317,
       "family_code": "KB23",
       "rank": 10,
       "sample_codes": [
@@ -3651,11 +3653,11 @@
       "count": 1251,
       "org_unit_code": null,
       "org_unit_id": "ZpJgSAyZtkl",
-      "org_unit_name": "Mbarara Regional Referral Hospital",
+      "org_unit_name": "Unknown facility/OU",
       "rank": 2,
       "sample_codes": [
-        "MD33",
         "MC82.Z",
+        "MD33",
         "KB23.0Z",
         "MG48",
         "MG40.Z"
@@ -3686,7 +3688,7 @@
       ]
     },
     {
-      "count": 596,
+      "count": 597,
       "org_unit_code": null,
       "org_unit_id": "sFIS2oxchec",
       "org_unit_name": "Unknown facility/OU",
@@ -3701,7 +3703,26 @@
       "sample_texts": [
         "UNKNOWN",
         "BIRTH ASPH",
-        "RESPIRATORY DISTRE"
+        "BIRTH ASPHY"
+      ]
+    },
+    {
+      "count": 551,
+      "org_unit_code": null,
+      "org_unit_id": "BrtC10sqp45",
+      "org_unit_name": "Unknown facility/OU",
+      "rank": 5,
+      "sample_codes": [
+        "KA60",
+        "8B24.Z",
+        "KB21.0",
+        "KA02.Y",
+        "KB20.Z"
+      ],
+      "sample_texts": [
+        "UNKNOWN",
+        "NEONATAL SEPSIS",
+        "RESPIRATORY DISTRESS"
       ]
     },
     {
@@ -3709,7 +3730,7 @@
       "org_unit_code": null,
       "org_unit_id": "Nnms2rd2gpC",
       "org_unit_name": "Unknown facility/OU",
-      "rank": 5,
+      "rank": 6,
       "sample_codes": [
         "KB20.Z",
         "CB41.2Z",
@@ -3719,34 +3740,15 @@
       ],
       "sample_texts": [
         "BIRTH ASP",
-        "BIRTH ASPHY",
-        "HYPOXIA"
-      ]
-    },
-    {
-      "count": 546,
-      "org_unit_code": null,
-      "org_unit_id": "BrtC10sqp45",
-      "org_unit_name": "Unknown facility/OU",
-      "rank": 6,
-      "sample_codes": [
-        "KA60",
-        "8B24.Z",
-        "KB21.0",
-        "KB20.Z",
-        "KA02.Y"
-      ],
-      "sample_texts": [
-        "UNKNOWN",
-        "NEONATAL SEPSIS",
-        "RESPIRATORY DISTRESS"
+        "HYPOXIA",
+        "BIRTH ASPHY"
       ]
     },
     {
       "count": 483,
       "org_unit_code": null,
       "org_unit_id": "h40pKp93Mtc",
-      "org_unit_name": "China Uganda Friendship (Naguru) Regional Referral Hospital",
+      "org_unit_name": "Unknown facility/OU",
       "rank": 7,
       "sample_codes": [
         "KB23.0Z",
@@ -3777,11 +3779,11 @@
       "sample_texts": [
         "RESPIRATORY FAILURE",
         "CARDIORESPIRATORY FAILURE",
-        "CARDIO RESPIRATORY FAILURE"
+        "CIRCULATORY FAILURE"
       ]
     },
     {
-      "count": 419,
+      "count": 428,
       "org_unit_code": null,
       "org_unit_id": "K2BGHpaUluP",
       "org_unit_name": "Unknown facility/OU",
@@ -3789,14 +3791,14 @@
       "sample_codes": [
         "KB20.Z",
         "CA71.0",
+        "MG40.Z",
         "KB21.Z",
-        "1G41",
-        "1G40"
+        "1G41"
       ],
       "sample_texts": [
         "BIRTH ASP",
         "ASPIRATION PNEU",
-        "BIRTH ASPHYXIA"
+        "INTRAUTERINE"
       ]
     },
     {
@@ -3815,7 +3817,7 @@
       "sample_texts": [
         "RESPIRATORY FAILURE",
         "FETAL HYPOXIA",
-        "MECONIUM ASPIRATION SYNDROME"
+        "UNK"
       ]
     }
   ]
