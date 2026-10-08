@@ -2,11 +2,11 @@
   "chapter_drilldowns": [
     {
       "chapter": "Unknown / missing ICD code",
-      "records_considered": 10075,
+      "records_considered": 10120,
       "top_families": [
         {
           "chapter": "Unknown / missing ICD code",
-          "count": 10075,
+          "count": 10120,
           "family_code": "UNKNOWN",
           "rank": 1,
           "sample_codes": [],
@@ -19,7 +19,7 @@
       ],
       "top_org_units": [
         {
-          "count": 840,
+          "count": 860,
           "org_unit_code": null,
           "org_unit_id": "HpJYuf9iyz2",
           "org_unit_name": "Unknown facility/OU",
@@ -45,7 +45,7 @@
           ]
         },
         {
-          "count": 330,
+          "count": 334,
           "org_unit_code": null,
           "org_unit_id": "EKPCmrHaBSg",
           "org_unit_name": "Unknown facility/OU",
@@ -71,7 +71,7 @@
           ]
         },
         {
-          "count": 267,
+          "count": 268,
           "org_unit_code": null,
           "org_unit_id": "xuCJ8NBomxP",
           "org_unit_name": "Unknown facility/OU",
@@ -150,11 +150,11 @@
     },
     {
       "chapter": "19. Certain conditions originating in the perinatal period",
-      "records_considered": 2777,
+      "records_considered": 2789,
       "top_families": [
         {
           "chapter": "19. Certain conditions originating in the perinatal period",
-          "count": 800,
+          "count": 804,
           "family_code": "KB21",
           "rank": 1,
           "sample_codes": [
@@ -172,7 +172,7 @@
         },
         {
           "chapter": "19. Certain conditions originating in the perinatal period",
-          "count": 711,
+          "count": 713,
           "family_code": "KB20",
           "rank": 2,
           "sample_codes": [
@@ -188,7 +188,7 @@
         },
         {
           "chapter": "19. Certain conditions originating in the perinatal period",
-          "count": 316,
+          "count": 321,
           "family_code": "KB23",
           "rank": 3,
           "sample_codes": [
@@ -224,23 +224,9 @@
         },
         {
           "chapter": "19. Certain conditions originating in the perinatal period",
-          "count": 125,
-          "family_code": "KA60",
-          "rank": 5,
-          "sample_codes": [
-            "KA60"
-          ],
-          "sample_texts": [
-            "NEONATAL SEPSIS",
-            "NEONATAL SEP",
-            "NEONATAL SE"
-          ]
-        },
-        {
-          "chapter": "19. Certain conditions originating in the perinatal period",
-          "count": 125,
+          "count": 126,
           "family_code": "KD3B",
-          "rank": 6,
+          "rank": 5,
           "sample_codes": [
             "KD3B.Z",
             "KD3B.0",
@@ -250,6 +236,20 @@
             "MACER",
             "MACERA",
             "FRESH"
+          ]
+        },
+        {
+          "chapter": "19. Certain conditions originating in the perinatal period",
+          "count": 125,
+          "family_code": "KA60",
+          "rank": 6,
+          "sample_codes": [
+            "KA60"
+          ],
+          "sample_texts": [
+            "NEONATAL SEPSIS",
+            "NEONATAL SEP",
+            "NEONATAL SE"
           ]
         },
         {
@@ -469,7 +469,7 @@
           ]
         },
         {
-          "count": 70,
+          "count": 72,
           "org_unit_code": null,
           "org_unit_id": "V2ylFCAVj0U",
           "org_unit_name": "Unknown facility/OU",
@@ -483,8 +483,8 @@
           ],
           "sample_texts": [
             "BIRTH ASPHYXIA",
-            "BIRTH ASPHY",
-            "BIRTH ASPH"
+            "BIRTH ASP",
+            "BIRTH ASPHY"
           ]
         },
         {
@@ -510,11 +510,11 @@
     },
     {
       "chapter": "21. Symptoms, signs or clinical findings, not elsewhere classified",
-      "records_considered": 1912,
+      "records_considered": 1935,
       "top_families": [
         {
           "chapter": "21. Symptoms, signs or clinical findings, not elsewhere classified",
-          "count": 404,
+          "count": 406,
           "family_code": "MD11",
           "rank": 1,
           "sample_codes": [
@@ -531,7 +531,7 @@
         },
         {
           "chapter": "21. Symptoms, signs or clinical findings, not elsewhere classified",
-          "count": 373,
+          "count": 380,
           "family_code": "MC82",
           "rank": 2,
           "sample_codes": [
@@ -548,7 +548,7 @@
         },
         {
           "chapter": "21. Symptoms, signs or clinical findings, not elsewhere classified",
-          "count": 355,
+          "count": 362,
           "family_code": "MG40",
           "rank": 3,
           "sample_codes": [
@@ -565,7 +565,7 @@
         },
         {
           "chapter": "21. Symptoms, signs or clinical findings, not elsewhere classified",
-          "count": 308,
+          "count": 310,
           "family_code": "MG48",
           "rank": 4,
           "sample_codes": [
@@ -593,7 +593,7 @@
         },
         {
           "chapter": "21. Symptoms, signs or clinical findings, not elsewhere classified",
-          "count": 112,
+          "count": 115,
           "family_code": "MG4A",
           "rank": 6,
           "sample_codes": [
@@ -607,7 +607,7 @@
         },
         {
           "chapter": "21. Symptoms, signs or clinical findings, not elsewhere classified",
-          "count": 83,
+          "count": 85,
           "family_code": "MA15",
           "rank": 7,
           "sample_codes": [
@@ -667,7 +667,7 @@
       ],
       "top_org_units": [
         {
-          "count": 351,
+          "count": 353,
           "org_unit_code": null,
           "org_unit_id": "ZpJgSAyZtkl",
           "org_unit_name": "Unknown facility/OU",
@@ -762,7 +762,7 @@
           ]
         },
         {
-          "count": 53,
+          "count": 66,
           "org_unit_code": null,
           "org_unit_id": "yApOnywci25",
           "org_unit_name": "Unknown facility/OU",
@@ -770,9 +770,9 @@
           "sample_codes": [
             "MC82.4",
             "MG40.1",
-            "MD11.5",
             "MC82.Z",
-            "MG48"
+            "MG4A",
+            "MD11.5"
           ],
           "sample_texts": [
             "UNK",
@@ -781,11 +781,30 @@
           ]
         },
         {
+          "count": 48,
+          "org_unit_code": null,
+          "org_unit_id": "OtHSbYGRmmu",
+          "org_unit_name": "Unknown facility/OU",
+          "rank": 7,
+          "sample_codes": [
+            "MG48",
+            "MG40.1",
+            "MD11.5",
+            "MD11.1",
+            "MG40.0"
+          ],
+          "sample_texts": [
+            "UNKNOWN",
+            "UNKNOW",
+            "UNKN"
+          ]
+        },
+        {
           "count": 47,
           "org_unit_code": null,
           "org_unit_id": "HpJYuf9iyz2",
           "org_unit_name": "Unknown facility/OU",
-          "rank": 7,
+          "rank": 8,
           "sample_codes": [
             "MC82.Z",
             "MG40.1",
@@ -797,25 +816,6 @@
             "SHOCK",
             "CARDIAC ARREST",
             "CARDIAC ARR"
-          ]
-        },
-        {
-          "count": 47,
-          "org_unit_code": null,
-          "org_unit_id": "OtHSbYGRmmu",
-          "org_unit_name": "Unknown facility/OU",
-          "rank": 8,
-          "sample_codes": [
-            "MG48",
-            "MD11.5",
-            "MG40.1",
-            "MD11.1",
-            "MG40.0"
-          ],
-          "sample_texts": [
-            "UNKNOWN",
-            "UNKNOW",
-            "UNKN"
           ]
         },
         {
@@ -860,11 +860,11 @@
     },
     {
       "chapter": "12. Diseases of the respiratory system",
-      "records_considered": 1186,
+      "records_considered": 1207,
       "top_families": [
         {
           "chapter": "12. Diseases of the respiratory system",
-          "count": 467,
+          "count": 477,
           "family_code": "CB41",
           "rank": 1,
           "sample_codes": [
@@ -882,9 +882,23 @@
         },
         {
           "chapter": "12. Diseases of the respiratory system",
-          "count": 209,
-          "family_code": "CA71",
+          "count": 213,
+          "family_code": "CB00",
           "rank": 2,
+          "sample_codes": [
+            "CB00"
+          ],
+          "sample_texts": [
+            "RESPIRATORY DISTRESS",
+            "respiratory distress syndrome",
+            "RESPIRATORY DISTRE"
+          ]
+        },
+        {
+          "chapter": "12. Diseases of the respiratory system",
+          "count": 211,
+          "family_code": "CA71",
+          "rank": 3,
           "sample_codes": [
             "CA71.0",
             "CA71.2",
@@ -894,20 +908,6 @@
             "ASPIRATION PNEU",
             "ASPIRATION PN",
             "ASPIRATION PNEUMONIA"
-          ]
-        },
-        {
-          "chapter": "12. Diseases of the respiratory system",
-          "count": 204,
-          "family_code": "CB00",
-          "rank": 3,
-          "sample_codes": [
-            "CB00"
-          ],
-          "sample_texts": [
-            "RESPIRATORY DISTRESS",
-            "respiratory distress syndrome",
-            "RESPIRATORY DISTRE"
           ]
         },
         {
@@ -1034,26 +1034,25 @@
           ]
         },
         {
-          "count": 72,
+          "count": 89,
           "org_unit_code": null,
-          "org_unit_id": "K2BGHpaUluP",
+          "org_unit_id": "yApOnywci25",
           "org_unit_name": "Unknown facility/OU",
           "rank": 2,
           "sample_codes": [
-            "CA71.0",
-            "CB41",
+            "CB00",
             "CB41.2Z",
-            "CA40.0Z",
-            "CA7Z"
+            "CB41",
+            "CB41.0Z",
+            "CA71.0"
           ],
           "sample_texts": [
-            "ASPIRATION PNEU",
-            "ASPIRATION PN",
-            "RESPIRATORY DIS"
+            "acute resp",
+            "acute respiratory distre"
           ]
         },
         {
-          "count": 72,
+          "count": 73,
           "org_unit_code": null,
           "org_unit_id": "ZpJgSAyZtkl",
           "org_unit_name": "Unknown facility/OU",
@@ -1074,9 +1073,28 @@
         {
           "count": 72,
           "org_unit_code": null,
-          "org_unit_id": "cK5namCwmbW",
+          "org_unit_id": "K2BGHpaUluP",
           "org_unit_name": "Unknown facility/OU",
           "rank": 4,
+          "sample_codes": [
+            "CA71.0",
+            "CB41",
+            "CB41.2Z",
+            "CA40.0Z",
+            "CA7Z"
+          ],
+          "sample_texts": [
+            "ASPIRATION PNEU",
+            "ASPIRATION PN",
+            "RESPIRATORY DIS"
+          ]
+        },
+        {
+          "count": 72,
+          "org_unit_code": null,
+          "org_unit_id": "cK5namCwmbW",
+          "org_unit_name": "Unknown facility/OU",
+          "rank": 5,
           "sample_codes": [
             "CA71.0",
             "CB41",
@@ -1088,24 +1106,6 @@
             "PNEUMONITIS",
             "RESPIRATORY FAILURE",
             "RESPIRATORY"
-          ]
-        },
-        {
-          "count": 72,
-          "org_unit_code": null,
-          "org_unit_id": "yApOnywci25",
-          "org_unit_name": "Unknown facility/OU",
-          "rank": 5,
-          "sample_codes": [
-            "CB00",
-            "CB41.2Z",
-            "CB41",
-            "CB41.0Z",
-            "CA71.0"
-          ],
-          "sample_texts": [
-            "acute resp",
-            "acute respiratory distre"
           ]
         },
         {
@@ -1166,7 +1166,7 @@
           ]
         },
         {
-          "count": 41,
+          "count": 42,
           "org_unit_code": null,
           "org_unit_id": "cDGKAJzfkpf",
           "org_unit_name": "Unknown facility/OU",
@@ -1207,11 +1207,11 @@
     },
     {
       "chapter": "1. Certain infectious or parasitic diseases",
-      "records_considered": 925,
+      "records_considered": 933,
       "top_families": [
         {
           "chapter": "1. Certain infectious or parasitic diseases",
-          "count": 505,
+          "count": 510,
           "family_code": "1G4",
           "rank": 1,
           "sample_codes": [
@@ -1326,7 +1326,7 @@
         },
         {
           "chapter": "1. Certain infectious or parasitic diseases",
-          "count": 25,
+          "count": 26,
           "family_code": "1F2",
           "rank": 8,
           "sample_codes": [
@@ -1344,12 +1344,12 @@
         },
         {
           "chapter": "1. Certain infectious or parasitic diseases",
-          "count": 12,
+          "count": 13,
           "family_code": "1C1",
           "rank": 9,
           "sample_codes": [
-            "1C15",
             "1C13",
+            "1C15",
             "1C1A.1",
             "1C1A.Y",
             "1C1D.2"
@@ -1456,15 +1456,15 @@
           ]
         },
         {
-          "count": 50,
+          "count": 51,
           "org_unit_code": null,
           "org_unit_id": "ZpJgSAyZtkl",
           "org_unit_name": "Unknown facility/OU",
           "rank": 5,
           "sample_codes": [
             "1D65",
-            "1G40",
             "1G41",
+            "1G40",
             "1D01.0Z",
             "1C82"
           ],
@@ -1545,7 +1545,7 @@
           ]
         },
         {
-          "count": 26,
+          "count": 27,
           "org_unit_code": null,
           "org_unit_id": "cDGKAJzfkpf",
           "org_unit_name": "Unknown facility/OU",
@@ -1567,11 +1567,11 @@
     },
     {
       "chapter": "18. Pregnancy, childbirth or the puerperium",
-      "records_considered": 842,
+      "records_considered": 850,
       "top_families": [
         {
           "chapter": "18. Pregnancy, childbirth or the puerperium",
-          "count": 318,
+          "count": 321,
           "family_code": "JA86",
           "rank": 1,
           "sample_codes": [
@@ -1588,7 +1588,7 @@
         },
         {
           "chapter": "18. Pregnancy, childbirth or the puerperium",
-          "count": 70,
+          "count": 71,
           "family_code": "JA24",
           "rank": 2,
           "sample_codes": [
@@ -1650,7 +1650,7 @@
         },
         {
           "chapter": "18. Pregnancy, childbirth or the puerperium",
-          "count": 30,
+          "count": 31,
           "family_code": "JA8C",
           "rank": 6,
           "sample_codes": [
@@ -1918,11 +1918,11 @@
     },
     {
       "chapter": "8. Diseases of the nervous system",
-      "records_considered": 372,
+      "records_considered": 376,
       "top_families": [
         {
           "chapter": "8. Diseases of the nervous system",
-          "count": 187,
+          "count": 188,
           "family_code": "8B2",
           "rank": 1,
           "sample_codes": [
@@ -1940,7 +1940,7 @@
         },
         {
           "chapter": "8. Diseases of the nervous system",
-          "count": 48,
+          "count": 49,
           "family_code": "8D6",
           "rank": 2,
           "sample_codes": [
@@ -2009,13 +2009,13 @@
         },
         {
           "chapter": "8. Diseases of the nervous system",
-          "count": 16,
+          "count": 17,
           "family_code": "8A0",
           "rank": 6,
           "sample_codes": [
             "8A06.Y",
-            "8A06.21",
-            "8A07.01"
+            "8A07.01",
+            "8A06.21"
           ],
           "sample_texts": [
             "HYPOXIA",
@@ -2059,8 +2059,23 @@
         {
           "chapter": "8. Diseases of the nervous system",
           "count": 5,
-          "family_code": "8D8",
+          "family_code": "8D4",
           "rank": 9,
+          "sample_codes": [
+            "8D43.0Z",
+            "8D43.0Y",
+            "8D43.Y"
+          ],
+          "sample_texts": [
+            "ORGANOPHOS",
+            "organophosphate p"
+          ]
+        },
+        {
+          "chapter": "8. Diseases of the nervous system",
+          "count": 5,
+          "family_code": "8D8",
+          "rank": 10,
           "sample_codes": [
             "8D88.Y",
             "8D88.1",
@@ -2070,20 +2085,6 @@
           "sample_texts": [
             "Idiopathic",
             "IDIOPATHIC"
-          ]
-        },
-        {
-          "chapter": "8. Diseases of the nervous system",
-          "count": 4,
-          "family_code": "8A4",
-          "rank": 10,
-          "sample_codes": [
-            "8A40.Z",
-            "8A44.1",
-            "8A45.02"
-          ],
-          "sample_texts": [
-            "disseminated"
           ]
         }
       ],
@@ -2184,11 +2185,26 @@
           ]
         },
         {
+          "count": 14,
+          "org_unit_code": null,
+          "org_unit_id": "yApOnywci25",
+          "org_unit_name": "Unknown facility/OU",
+          "rank": 6,
+          "sample_codes": [
+            "8D60.Z",
+            "8D2Z",
+            "8E4Y",
+            "8B11.4",
+            "8D60.1"
+          ],
+          "sample_texts": []
+        },
+        {
           "count": 11,
           "org_unit_code": null,
           "org_unit_id": "K2BGHpaUluP",
           "org_unit_name": "Unknown facility/OU",
-          "rank": 6,
+          "rank": 7,
           "sample_codes": [
             "8B24.Z",
             "8B20",
@@ -2207,7 +2223,7 @@
           "org_unit_code": null,
           "org_unit_id": "MUxAV5pwDbk",
           "org_unit_name": "Unknown facility/OU",
-          "rank": 7,
+          "rank": 8,
           "sample_codes": [
             "8B20",
             "8C70.6",
@@ -2225,7 +2241,7 @@
           "org_unit_code": null,
           "org_unit_id": "Nnms2rd2gpC",
           "org_unit_name": "Unknown facility/OU",
-          "rank": 8,
+          "rank": 9,
           "sample_codes": [
             "8D60.Z",
             "8B20",
@@ -2238,21 +2254,6 @@
             "stroke",
             "HYPOXIC ISCHEMIC ENCEPHALO"
           ]
-        },
-        {
-          "count": 11,
-          "org_unit_code": null,
-          "org_unit_id": "yApOnywci25",
-          "org_unit_name": "Unknown facility/OU",
-          "rank": 9,
-          "sample_codes": [
-            "8D60.Z",
-            "8D2Z",
-            "8E4Y",
-            "8B11.4",
-            "8D60.1"
-          ],
-          "sample_texts": []
         },
         {
           "count": 10,
@@ -2952,11 +2953,11 @@
     },
     {
       "chapter": "22. Injury, poisoning or certain other consequences of external causes",
-      "records_considered": 234,
+      "records_considered": 235,
       "top_families": [
         {
           "chapter": "22. Injury, poisoning or certain other consequences of external causes",
-          "count": 79,
+          "count": 80,
           "family_code": "NA07",
           "rank": 1,
           "sample_codes": [
@@ -3105,7 +3106,7 @@
       ],
       "top_org_units": [
         {
-          "count": 40,
+          "count": 41,
           "org_unit_code": null,
           "org_unit_id": "ZpJgSAyZtkl",
           "org_unit_name": "Unknown facility/OU",
@@ -3288,14 +3289,14 @@
     }
   ],
   "event_year": 2026,
-  "generated_at": "2026-10-06T00:13:59Z",
-  "records_considered": 20038,
+  "generated_at": "2026-10-08T00:49:09Z",
+  "records_considered": 20172,
   "source": "logs.db (event year 2026)",
   "status_filter": "all",
   "top_chapters": [
     {
       "chapter": "Unknown / missing ICD code",
-      "count": 10075,
+      "count": 10120,
       "rank": 1,
       "sample_codes": [],
       "sample_texts": [
@@ -3306,7 +3307,7 @@
     },
     {
       "chapter": "19. Certain conditions originating in the perinatal period",
-      "count": 2777,
+      "count": 2789,
       "rank": 2,
       "sample_codes": [
         "KB20.Z",
@@ -3323,7 +3324,7 @@
     },
     {
       "chapter": "21. Symptoms, signs or clinical findings, not elsewhere classified",
-      "count": 1912,
+      "count": 1935,
       "rank": 3,
       "sample_codes": [
         "MD11.1",
@@ -3340,7 +3341,7 @@
     },
     {
       "chapter": "12. Diseases of the respiratory system",
-      "count": 1186,
+      "count": 1207,
       "rank": 4,
       "sample_codes": [
         "CB41",
@@ -3357,7 +3358,7 @@
     },
     {
       "chapter": "1. Certain infectious or parasitic diseases",
-      "count": 925,
+      "count": 933,
       "rank": 5,
       "sample_codes": [
         "1G41",
@@ -3374,7 +3375,7 @@
     },
     {
       "chapter": "18. Pregnancy, childbirth or the puerperium",
-      "count": 842,
+      "count": 850,
       "rank": 6,
       "sample_codes": [
         "JA86.2",
@@ -3391,7 +3392,7 @@
     },
     {
       "chapter": "8. Diseases of the nervous system",
-      "count": 372,
+      "count": 376,
       "rank": 7,
       "sample_codes": [
         "8B24.Z",
@@ -3442,7 +3443,7 @@
     },
     {
       "chapter": "22. Injury, poisoning or certain other consequences of external causes",
-      "count": 234,
+      "count": 235,
       "rank": 10,
       "sample_codes": [
         "NA07.Z",
@@ -3461,7 +3462,7 @@
   "top_families": [
     {
       "chapter": "Unknown / missing ICD code",
-      "count": 10075,
+      "count": 10120,
       "family_code": "UNKNOWN",
       "rank": 1,
       "sample_codes": [],
@@ -3473,7 +3474,7 @@
     },
     {
       "chapter": "19. Certain conditions originating in the perinatal period",
-      "count": 800,
+      "count": 804,
       "family_code": "KB21",
       "rank": 2,
       "sample_codes": [
@@ -3491,7 +3492,7 @@
     },
     {
       "chapter": "19. Certain conditions originating in the perinatal period",
-      "count": 711,
+      "count": 713,
       "family_code": "KB20",
       "rank": 3,
       "sample_codes": [
@@ -3507,7 +3508,7 @@
     },
     {
       "chapter": "1. Certain infectious or parasitic diseases",
-      "count": 505,
+      "count": 510,
       "family_code": "1G4",
       "rank": 4,
       "sample_codes": [
@@ -3522,7 +3523,7 @@
     },
     {
       "chapter": "12. Diseases of the respiratory system",
-      "count": 467,
+      "count": 477,
       "family_code": "CB41",
       "rank": 5,
       "sample_codes": [
@@ -3540,7 +3541,7 @@
     },
     {
       "chapter": "21. Symptoms, signs or clinical findings, not elsewhere classified",
-      "count": 404,
+      "count": 406,
       "family_code": "MD11",
       "rank": 6,
       "sample_codes": [
@@ -3557,7 +3558,7 @@
     },
     {
       "chapter": "21. Symptoms, signs or clinical findings, not elsewhere classified",
-      "count": 373,
+      "count": 380,
       "family_code": "MC82",
       "rank": 7,
       "sample_codes": [
@@ -3574,7 +3575,7 @@
     },
     {
       "chapter": "21. Symptoms, signs or clinical findings, not elsewhere classified",
-      "count": 355,
+      "count": 362,
       "family_code": "MG40",
       "rank": 8,
       "sample_codes": [
@@ -3591,7 +3592,7 @@
     },
     {
       "chapter": "18. Pregnancy, childbirth or the puerperium",
-      "count": 318,
+      "count": 321,
       "family_code": "JA86",
       "rank": 9,
       "sample_codes": [
@@ -3608,7 +3609,7 @@
     },
     {
       "chapter": "19. Certain conditions originating in the perinatal period",
-      "count": 316,
+      "count": 321,
       "family_code": "KB23",
       "rank": 10,
       "sample_codes": [
@@ -3627,7 +3628,7 @@
   ],
   "top_org_units": [
     {
-      "count": 1441,
+      "count": 1462,
       "org_unit_code": null,
       "org_unit_id": "HpJYuf9iyz2",
       "org_unit_name": "Unknown facility/OU",
@@ -3646,7 +3647,7 @@
       ]
     },
     {
-      "count": 1251,
+      "count": 1258,
       "org_unit_code": null,
       "org_unit_id": "ZpJgSAyZtkl",
       "org_unit_name": "Mbarara Regional Referral Hospital",
@@ -3798,7 +3799,7 @@
       ]
     },
     {
-      "count": 357,
+      "count": 405,
       "org_unit_code": null,
       "org_unit_id": "yApOnywci25",
       "org_unit_name": "Unknown facility/OU",
@@ -3806,8 +3807,8 @@
       "sample_codes": [
         "CB00",
         "MC82.4",
-        "JA86.2",
         "CB41.2Z",
+        "JA86.2",
         "CB41"
       ],
       "sample_texts": [
